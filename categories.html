@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+  <head>
+    <html lang="de-DE">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        
+            Categories | Mensa Talk
+      
+    </title>
+    <meta name="description" content="
+     Neuigkeiten und Wissenwertse aus meinem Uni Alltag<br> Fun Facts und neu gewonnene Erkenntnisse<br> Vorstellung von interessanten Veröffentlichungen<br> Tools die man kennen und lieben sollte<br>
+    ">
+
+    <link rel="icon" href="http://localhost:4000/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="http://localhost:4000/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/mobile.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+</head>
+</head>
+<body><div id = "header">
+    <h1><a href="http://localhost:4000">Mensa Talk</a></h1>
+    <div class = "wave">
+    </div>
+
+    <nav role="navigation">
+      <div id = "desktop-nav">
+        <ul id = "desktop-menu">
+          
+          <li><a href="http://localhost:4000/episodes.html"> Alle Episoden</a></li>
+          
+        </ul>
+      </div>
+      <div id="hammenuToggle">
+          <input type="checkbox" />
+    
+          <span></span>
+          <span></span>
+          <span></span>
+          
+    
+          <ul id = "menu">
+            
+            <li><a href="http://localhost:4000/episodes.html">  Alle Episoden</a></li>
+            
+          </ul>
+        </div>
+    </nav>
+</div>
+<div class="container">
+      <div class="content ">
+        
+
+        
+      </div>
+
+      <div class = "sidebar"><img src="http://localhost:4000/assets/img/Podcast_Cover_500.jpg" alt="Podcast Cover">
+
+<div id = "info">
+    <h3>Mensa Talk</h3>
+    <h4><i>Neuigkeiten und Wissenwertse aus meinem Uni Alltag<br> Fun Facts und neu gewonnene Erkenntnisse<br> Vorstellung von interessanten Veröffentlichungen<br> Tools die man kennen und lieben sollte<br></i></h4>
+</div>
+<div id = "social">
+    
+    
+      <a href="https://twitter.com/IFBKE" target="_blank" id="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+    
+     
+  
+    
+      <a href="https://www.youtube.com/channel/UChbU_AdZs6sUjmkeQS5ggqA" target="_blank" id="youtube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+    
+     
+  
+</div>
+<div id = "ascoltare">
+    <h3>Abonieren</h3>
+    <div id = "lista-siti">
+        <ul id = "siti">
+          
+          <li><a href="https://open.spotify.com/show/3DPksAlw4rUxEy78NUBxIm?si=4f81caf1894c48a7"> Spotify</a></li>
+          
+          <li><a href="https://www.youtube.com/channel/UChbU_AdZs6sUjmkeQS5ggqA"> YouTube</a></li>
+          
+          <li><a href="https://castbox.fm/ch/4822820"> Castbox</a></li>
+          
+          <li><a href="http://rss.castbox.fm/everest/6b5deac4d42440d5b8628af9a10fdc5c.xml"> RSS</a></li>
+          
+        </ul>
+      </div>
+</div></div>
+   
+  </div><footer>
+    <p>
+        <a href="/impressum.html">Impressum </a>
+		<!-- DO NOT DELETE --> &nbsp;&nbsp Theme designed by <a href="https://alessiofranceschi.me/">Alessio Franceschi</a>.
+    </p>
+</footer><ul class="circles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul><script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
+
+<script>
+    //See https://github.com/sampotts/plyr for more informations about customization
+
+    const controls = 
+    [
+     "play",
+     "rewind",
+     'progress',
+     "fast-forward",
+     'current-time',
+     'mute',
+     'volume',
+     'settings',
+     'airplay',
+    ];
+
+    const players = Array.from(document.querySelectorAll(".player"));
+        players.map(player => new Plyr(player, {
+        controls,
+        invertTime: true,
+        toggleInvert: true,
+        settings: ['quality', 'speed'],
+        //Italian translation, used in my website. Delete this to use English or translate the player to your language.
+        // Remove the /* and */ to use translation.
+        /*
+        i18n: {
+            restart: 'Riavvia',
+            rewind: 'Riavvolgi di {seektime} secondi',
+            play: 'Avvia',
+            pause: 'Pausa',
+            fastForward: 'Avanza di {seektime} secondi',
+            seek: 'Cerca',
+            played: 'Riprodotto',
+            buffered: 'Bufferato',
+            currentTime: 'Tempo Corrente',
+            duration: 'Durata',
+            volume: 'Volume',
+            mute: 'Muta',
+            unmute: 'Smuta',
+            enterFullscreen: 'Tutto schermo',
+            exitFullscreen: 'Esci dal tutto schermo',
+            frameTitle: 'Player per {title}',
+            settings: 'Impostazioni',
+            speed: 'Velocità',
+            normal: 'Normale',
+            quality: 'Qualità',
+            loop: 'Loop',
+            start: 'Inizio',
+            end: 'Fine',
+            all: 'Tutto',
+            reset: 'Reset',
+            disabled: 'Disabilitato',
+        }
+        */
+    }));
+</script></body>
+</html>

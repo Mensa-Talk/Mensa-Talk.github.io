@@ -1,0 +1,184 @@
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin: 0px; padding: 0px; font-family: 'Karla', sans-serif; }
+
+html { scroll-behavior: smooth; }
+
+a { text-decoration: none; }
+
+p a { display: inline-block; font-style: italic; border-bottom: 1px solid #01a0e4; line-height: 0.9; transition: background-color 0.1s cubic-bezier(0.33, 0.66, 0.66, 1); }
+
+p a:hover { background-color: rgba(0, 160, 227, 0.2); border-bottom: none; }
+
+.container { display: flex; flex-direction: row; justify-content: space-evenly; align-items: flex-start; }
+
+.container .content { order: 1; width: 55%; }
+
+footer { text-align: center; font-size: .85rem; margin-bottom: 10px; margin-top: 20px; }
+
+footer a { text-decoration: none; color: black; }
+
+body { background-color: #fff; background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%2040%201440%20320%22%3E%0A%20%20%3Cpath%20fill%3D%22%2301a0e4%22%20fill-opacity%3D%221%22%20d%3D%22M0%2C160L48%2C176C96%2C192%2C192%2C224%2C288%2C229.3C384%2C235%2C480%2C213%2C576%2C176C672%2C139%2C768%2C85%2C864%2C90.7C960%2C96%2C1056%2C160%2C1152%2C165.3C1248%2C171%2C1344%2C117%2C1392%2C90.7L1440%2C64L1440%2C0L1392%2C0C1344%2C0%2C1248%2C0%2C1152%2C0C1056%2C0%2C960%2C0%2C864%2C0C768%2C0%2C672%2C0%2C576%2C0C480%2C0%2C384%2C0%2C288%2C0C192%2C0%2C96%2C0%2C48%2C0L0%2C0Z%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E"); background-repeat: repeat-x; }
+
+.circles { position: fixed; z-index: -5; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; }
+
+.circles li { position: absolute; display: block; list-style: none; width: 20px; height: 20px; background: rgba(0, 160, 227, 0.2); animation: animate 25s linear infinite; bottom: -150px; }
+
+.circles li:nth-child(1) { left: 25%; width: 80px; height: 80px; animation-delay: 0s; }
+
+.circles li:nth-child(2) { left: 10%; width: 20px; height: 20px; animation-delay: 2s; animation-duration: 12s; }
+
+.circles li:nth-child(3) { left: 70%; width: 20px; height: 20px; animation-delay: 4s; }
+
+.circles li:nth-child(4) { left: 40%; width: 60px; height: 60px; animation-delay: 0s; animation-duration: 18s; }
+
+.circles li:nth-child(5) { left: 65%; width: 20px; height: 20px; animation-delay: 0s; }
+
+.circles li:nth-child(6) { left: 75%; width: 110px; height: 110px; animation-delay: 3s; }
+
+.circles li:nth-child(7) { left: 35%; width: 150px; height: 150px; animation-delay: 7s; }
+
+.circles li:nth-child(8) { left: 50%; width: 25px; height: 25px; animation-delay: 15s; animation-duration: 45s; }
+
+.circles li:nth-child(9) { left: 20%; width: 15px; height: 15px; animation-delay: 2s; animation-duration: 35s; }
+
+.circles li:nth-child(10) { left: 85%; width: 150px; height: 150px; animation-delay: 0s; animation-duration: 11s; }
+
+@keyframes animate { 0% { transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 50%; }
+  100% { transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%; } }
+
+#header { display: flex; align-items: center; justify-content: flex-start; min-height: 50px; margin-bottom: 160px; /* Just a quick hamburger */ /*  Transform all the slices of hamburger into a crossmark. */ /* But let's hide the middle one. */ /* Ohyeah and the last one should go the other direction */ /* Make this absolute positioned at the top left of the screen */ /* And let's slide it in from the left */ }
+
+#header h1 { padding: 20px; }
+
+#header h1 a { color: white; font-family: 'Oleo Script', cursive; font-size: 2.5rem; }
+
+#header #desktop-nav #desktop-menu { list-style: none; margin: 0; margin-right: 180px; padding: 0; overflow: hidden; }
+
+#header #desktop-nav #desktop-menu ul { display: inline; }
+
+#header #desktop-nav #desktop-menu li { float: left; margin-right: 10px; }
+
+#header #desktop-nav #desktop-menu li a { display: block; text-decoration: none; color: white; font-weight: bold; font-size: 1.5rem; }
+
+#header #desktop-nav #desktop-menu li a:hover { text-decoration: underline; }
+
+#header #hammenuToggle { display: block; position: absolute; top: 15px; right: 15px; z-index: 1; -webkit-user-select: none; user-select: none; }
+
+#header #hammenuToggle a { text-decoration: none; color: #232323; transition: color 0.3s ease; }
+
+#header #hammenuToggle a:hover { color: #01a0e4; }
+
+#header #hammenuToggle input { display: block; width: 40px; height: 32px; position: absolute; top: -7px; left: -5px; cursor: pointer; opacity: 0; /* hide this */ z-index: 2; /* and place it over the hamburger */ -webkit-touch-callout: none; }
+
+#header #hammenuToggle span { display: block; width: 33px; height: 4px; margin-bottom: 5px; position: relative; background: white; border-radius: 3px; z-index: 1; transform-origin: 4px 0px; transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease; }
+
+#header #hammenuToggle span:first-child { transform-origin: 0% 0%; }
+
+#header #hammenuToggle span:nth-last-child(2) { transform-origin: 0% 100%; }
+
+#header #hammenuToggle input:checked ~ span { opacity: 1; transform: rotate(45deg) translate(-2px, -1px); background: #232323; }
+
+#header #hammenuToggle input:checked ~ span:nth-last-child(3) { opacity: 0; transform: rotate(0deg) scale(0.2, 0.2); }
+
+#header #hammenuToggle input:checked ~ span:nth-last-child(2) { transform: rotate(-45deg) translate(0, -1px); }
+
+#header #menu { position: fixed; width: 300px; margin: 10px 0 200px -135px; padding: 50px; background: white; border: 2px solid #01a0e4; opacity: 0.98; border-radius: 30px; list-style-type: none; -webkit-font-smoothing: antialiased; /* to stop flickering of text in safari */ transform-origin: 0% 0%; transform: translate(100%); transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
+
+#header #menu li { padding: 10px 0; font-size: 22px; }
+
+#header #hammenuToggle input:checked ~ ul { transform: none; }
+
+.container .sidebar { width: 15%; order: 5; background-color: white; padding-bottom: 30px; margin-bottom: 50px; border-radius: 10px; text-align: center; -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5); }
+
+.container .sidebar #info { margin-left: 6px; margin-right: 6px; }
+
+.container .sidebar a { text-decoration: none; }
+
+.container .sidebar ul { list-style-type: none; }
+
+.container .sidebar ul li { margin-bottom: 3px; }
+
+.container .sidebar ul li a { color: #01a0e4; }
+
+.container .sidebar ul li a:hover { text-decoration: underline; }
+
+.container .sidebar img { max-width: 100%; height: auto; border-radius: 5px; margin-bottom: 5px; }
+
+.container .sidebar #social::before { display: block; content: ''; width: 5rem; height: 1px; margin: 23px auto; background-color: #d5d5d5; }
+
+.container .sidebar #social::after { display: block; content: ''; width: 5rem; height: 1px; margin: 23px auto; background-color: #d5d5d5; }
+
+.container .sidebar #social a { color: #a2a2a2; margin: 2px; }
+
+.container .sidebar #social #twitter:hover { color: #1DA1F2; }
+
+.container .sidebar #social #rss:hover { color: #f26522; }
+
+.container .sidebar #social #envelope:hover { color: #5d5c5d; }
+
+.container .sidebar #social #instagram:hover { color: #e1306c; }
+
+.container .sidebar #social #facebook:hover { color: #3b5998; }
+
+.container .sidebar #social #youtube:hover { color: #ff0000; }
+
+.content .post { -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5); box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5); height: 210px; margin-bottom: 80px; background-color: white; }
+
+.content .post p { padding: 0 5px; }
+
+.content .post a { color: black; }
+
+.content .post h2 { padding-top: 5px; margin-right: 5px; }
+
+.content .post h2 a { margin-bottom: 10px; }
+
+.content .post img { width: auto; height: 210px; float: left; margin-right: 10px; }
+
+.content .post .player-container { margin: 10px auto; }
+
+.content .post .info { margin-bottom: 10px; font-size: 1rem; font-style: italic; }
+
+.content .pagination a, .content .pagination span { padding: 7px 18px; border: 1px solid #eee; margin-left: -2px; margin-right: -2px; background-color: #ffffff; display: inline-block; color: #01a0e4; }
+
+.content .pagination a:hover { background-color: #f1f1f1; color: #333; }
+
+.content .pagination { text-align: center; margin-bottom: 30px; }
+
+.content .pagination .inactive { background-color: #f1f1f1; }
+
+.container .content .single-post { padding-bottom: 100px; }
+
+.container .content .single-post .categories { text-align: center; font-size: 1.2rem; }
+
+.container .content .single-post img { max-width: 400px; display: block; margin-left: auto; margin-right: auto; width: 50%; margin-bottom: 20px; margin-top: 10px; }
+
+.container .content .single-post p { font-size: 1.1rem; }
+
+.container .content .single-post h2 { text-align: center; }
+
+.container .content .single-post h3 { text-align: center; margin-top: 30px; }
+
+.container .content .single-post a { text-decoration: none; color: black; display: inline-block; font-style: italic; border-bottom: 1px solid #01a0e4; line-height: 0.9; transition: background-color 0.1s cubic-bezier(0.33, 0.66, 0.66, 1); }
+
+.container .content .single-post a:hover { background-color: rgba(1, 160, 228, 0.3); border-bottom: none; }
+
+.container .content .single-post .video { display: block; margin-left: auto; margin-right: auto; width: 50%; margin-bottom: 30px; height: 0; overflow: hidden; padding-bottom: 29.25%; padding-top: 30px; position: relative; }
+
+.container .content .single-post .video iframe, .container .content .single-post .video object, .container .content .single-post .video embed { height: 100%; left: 0; position: absolute; top: 0; width: 100%; }
+
+.container .content .archive-group h2, .container .content .episodes h2 { font-family: 'Karla', sans-serif; font-size: 2rem; text-align: center; margin-top: 20px; }
+
+.container .content .archive-group ul, .container .content .episodes ul { list-style: none; }
+
+.container .content .archive-group ul li, .container .content .episodes ul li { line-height: 3rem; text-align: center; }
+
+.container .content .archive-group ul li a, .container .content .episodes ul li a { text-decoration: none; font-size: 1.5rem; display: inline-block; font-style: italic; border-bottom: 1px solid #01a0e4; line-height: 0.9; transition: background-color 0.1s cubic-bezier(0.33, 0.66, 0.66, 1); color: black; }
+
+.container .content .archive-group ul li a:hover, .container .content .episodes ul li a:hover { background-color: rgba(0, 160, 227, 0.2); border-bottom: none; }
+
+.player-container { margin: 30px auto; height: fit-content; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); font-family: 'Open Sans', sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
