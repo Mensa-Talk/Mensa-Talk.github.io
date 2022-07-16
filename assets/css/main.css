@@ -4,7 +4,7 @@ html { scroll-behavior: smooth; }
 
 a { text-decoration: none; }
 
-p a { display: inline-block; font-style: italic; border-bottom: 1px solid #01a0e4; line-height: 0.9; transition: background-color 0.1s cubic-bezier(0.33, 0.66, 0.66, 1); }
+p a { display: inline-block; font-style: italic; border-bottom: 1px solid #01a0e4; line-height: 1; transition: background-color 0.1s cubic-bezier(0.33, 0.66, 0.66, 1); }
 
 p a:hover { background-color: rgba(0, 160, 227, 0.2); border-bottom: none; }
 
@@ -15,6 +15,14 @@ p a:hover { background-color: rgba(0, 160, 227, 0.2); border-bottom: none; }
 footer { text-align: center; font-size: .85rem; margin-bottom: 10px; margin-top: 20px; }
 
 footer a { text-decoration: none; color: black; }
+
+.mbtablestyle { border-collapse: collapse; }
+
+.mbtablestyle > table, .mbtablestyle td, .mbtablestyle th { padding: 10px; }
+
+.mbtablestyle th { background-color: #ceeffc; }
+
+.mbtablestyle tr:nth-child(even) { background-color: #eaf7fc; }
 
 body { background-color: #fff; background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%2040%201440%20320%22%3E%0A%20%20%3Cpath%20fill%3D%22%2301a0e4%22%20fill-opacity%3D%221%22%20d%3D%22M0%2C160L48%2C176C96%2C192%2C192%2C224%2C288%2C229.3C384%2C235%2C480%2C213%2C576%2C176C672%2C139%2C768%2C85%2C864%2C90.7C960%2C96%2C1056%2C160%2C1152%2C165.3C1248%2C171%2C1344%2C117%2C1392%2C90.7L1440%2C64L1440%2C0L1392%2C0C1344%2C0%2C1248%2C0%2C1152%2C0C1056%2C0%2C960%2C0%2C864%2C0C768%2C0%2C672%2C0%2C576%2C0C480%2C0%2C384%2C0%2C288%2C0C192%2C0%2C96%2C0%2C48%2C0L0%2C0Z%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E"); background-repeat: repeat-x; }
 
@@ -133,7 +141,7 @@ body { background-color: #fff; background-image: url("data:image/svg+xml;utf8,%3
 
 .content .post a { color: black; }
 
-.content .post h2 { padding-top: 5px; margin-right: 5px; }
+.content .post h2 { padding-top: 5px; margin-right: 5px; line-height: 1.5; }
 
 .content .post h2 a { margin-bottom: 10px; }
 
@@ -159,7 +167,7 @@ body { background-color: #fff; background-image: url("data:image/svg+xml;utf8,%3
 
 .container .content .single-post p { font-size: 1.1rem; }
 
-.container .content .single-post h2 { text-align: center; }
+.container .content .single-post h2 { text-align: center; line-height: 1.5; }
 
 .container .content .single-post h3 { text-align: center; margin-top: 30px; }
 
