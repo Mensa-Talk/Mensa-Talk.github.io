@@ -1,9 +1,149 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://mensa-talk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mensa-talk.github.io/" rel="alternate" type="text/html" /><updated>2022-07-16T13:36:20+02:00</updated><id>https://mensa-talk.github.io/feed.xml</id><title type="html">Mensa Talk</title><subtitle>Blog und Podcast&lt;br&gt; Neuigkeiten und Wissenwertes aus meinem Uni Alltag&lt;br&gt; Fun Facts und neu gewonnene Erkenntnisse&lt;br&gt; Vorstellung von interessanten Veröffentlichungen&lt;br&gt; Tools die man kennen und lieben sollte&lt;br&gt;</subtitle><entry><title type="html">Huston we have a homepage!</title><link href="https://mensa-talk.github.io/2022/07/10/Neue-Hompage-online.html" rel="alternate" type="text/html" title="Huston we have a homepage!" /><published>2022-07-10T00:00:00+02:00</published><updated>2022-07-10T00:00:00+02:00</updated><id>https://mensa-talk.github.io/2022/07/10/Neue%20Hompage%20online</id><content type="html" xml:base="https://mensa-talk.github.io/2022/07/10/Neue-Hompage-online.html"><![CDATA[<p><br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://mensa-talk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mensa-talk.github.io/" rel="alternate" type="text/html" /><updated>2022-09-21T21:46:55+02:00</updated><id>https://mensa-talk.github.io/feed.xml</id><title type="html">Mensa Talk</title><subtitle>Blog und Podcast&lt;br&gt; Neuigkeiten und Wissenwertes aus meinem Uni Alltag&lt;br&gt; Fun Facts und neu gewonnene Erkenntnisse&lt;br&gt; Vorstellung von interessanten Veröffentlichungen&lt;br&gt; Tools die man kennen und lieben sollte&lt;br&gt;</subtitle><entry><title type="html">Mann ist das ruhig hier - Mensa Talk Update</title><link href="https://mensa-talk.github.io/2022/09/21/Mensa-Talk-News.html" rel="alternate" type="text/html" title="Mann ist das ruhig hier - Mensa Talk Update" /><published>2022-09-21T00:00:00+02:00</published><updated>2022-09-21T00:00:00+02:00</updated><id>https://mensa-talk.github.io/2022/09/21/Mensa%20Talk%20News</id><content type="html" xml:base="https://mensa-talk.github.io/2022/09/21/Mensa-Talk-News.html"><![CDATA[<p><br /></p>
+<h2 id="kapitel">Kapitel:</h2>
+<p>00:00:00 Intro</p>
+
+<p>00:00:43 Begrüßung</p>
+
+<p>00:01:12 Erkenntnisse aus den Coronasemestern</p>
+
+<p>00:17:51 Mensa-Talk Homepage</p>
+
+<p>00:26:57 Neues vom James Webb Teleskop</p>
+
+<p>00:37:40 e-Genius Rekordjagd</p>
+
+<p>00:44:42 Outro</p>
+
+<h2 id="externe-verweise">externe Verweise:</h2>
+
+<ul>
+  <li><a href="https://www.student.uni-stuttgart.de/aktuelles/video/Modulevaluation/">Erklärvideo Modulevaluation</a></li>
+  <li><a href="https://www.student.uni-stuttgart.de/mitmachen/befragung/">Überblick: Befragungen der Studierenden</a></li>
+  <li><a href="https://github.com/">Github</a></li>
+  <li><a href="https://pages.github.com/">Github Pages</a></li>
+  <li><a href="https://github.tik.uni-stuttgart.de/login">Github der Uni Stuttgart</a></li>
+  <li><a href="https://jekyllrb.com/">Jekyll static site generator</a></li>
+  <li><a href="https://mensa-talk.github.io">Mensa Talk Homepage</a></li>
+  <li><a href="https://www.stsci.edu/files/live/sites/www/files/home/jwst/documentation/_documents/jwst-science-performance-report.pdf">Characterization of JWST science performance from commissioning</a></li>
+  <li><a href="https://jwst.nasa.gov/content/webbLaunch/deploymentExplorer.html#43">Erstes Bild vom James Webb Teleskop</a></li>
+  <li><a href="https://futurezone.at/science/james-webb-hubble-smacs-0723-vergleich-aufnahme-bild-nasa-esa-teleskop-galaxie/402072391">Vergleich Hubble vs Jammes Webb</a></li>
+  <li><a href="https://www.uni-stuttgart.de/universitaet/aktuelles/meldungen/E-Genius-bricht-erneut-Weltrekorde/">e-Genius Rekordjagd</a></li>
+  <li><a href="https://www.ifb.uni-stuttgart.de/en/research/mannedaircraft/e-genius/">e-Genius Projektseite</a></li>
+  <li><a href="https://de.wikipedia.org/wiki/E-Genius">e-Genius auf Wikipedia</a></li>
+  <li><a href="https://www.uni-stuttgart.de/universitaet/aktuelles/meldungen/Satelliten-Antriebssystem-PETRUS-erstmals-im-All/">Satelliten-Antriebssystem Petrus</a></li>
+  <li><a href="https://de.wikipedia.org/wiki/Antriebsmethoden_f%C3%BCr_die_Raumfahrt#Elektrische_Antriebe">Antriebsmethoden für die Raumfahrt</a></li>
+  <li><a href="https://de.wikipedia.org/wiki/Gepulstes_Plasmatriebwerk">Gepulste Plasmatriebwerke</a></li>
+</ul>
+
+<h2 id="erkenntnisse-aus-den-coronasemestern">Erkenntnisse aus den Coronasemestern?</h2>
+
+<ul>
+  <li>Mittlerweile 4 Semester Online Lehre</li>
+  <li>Steigende Unzufriedenheit</li>
+  <li>Freiwillige Modulkommentierung</li>
+  <li>Umbau der Vorlesung
+    <ul>
+      <li>Lange Videos</li>
+      <li>reine Vortragsübungen</li>
+      <li>Präsenzveranstaltung</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="neue-homepage">Neue Homepage</h2>
+<ul>
+  <li>Warum eine Homepage?</li>
+  <li>Content Management Systeme vs. Static site Generator</li>
+  <li>Github und Github Pages</li>
+  <li>Github der Uni Stuttgart (nur intern)</li>
+  <li>Todos
+    <ul>
+      <li>Podcastplayer unterstützt keine Kapitelmarken</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="neues-vom-james-webb-space-telescope">Neues vom James Webb Space Telescope</h2>
+<ul>
+  <li>Warum der Vergleich Hubble vs. James Web unfair ist</li>
+  <li>Fast verdoppelte prognostizierte Lebenszeit (20 Jahre)
+    <ul>
+      <li>sehr genaues Absetzen, etwas zu schnell</li>
+      <li>Zündung alle drei Wochen, drei Zündungen wurden übersprungen</li>
+    </ul>
+  </li>
+  <li>von 344 single point failures auf 49</li>
+  <li>7x Safe Modes die meisten beim on Orbit learning</li>
+  <li>stärker kosmische Strahlung als erwartet, diese macht jedoch keine Probleme</li>
+  <li>Größte Gefahr sind Mikrometeoriten
+    <ul>
+      <li>Treffer um den 23. Mai 20  22 mit höherem als erwarteten Schaden</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="e-genius-rekordjagd">e-Genius Rekordjagd</h2>
+<ul>
+  <li>zweisitziges elektrisch angetriebenes Flugzeug</li>
+  <li>extended Range Version als seriell Hybrid mit Smartmotor
+    <ul>
+      <li>Motor bereits in weiteren Motorseglern erprobt</li>
+    </ul>
+  </li>
+  <li>Neuer Weltrekord am 11.07.22 (speed over a closed course, 1000km)
+    <ul>
+      <li>von Mengen (EDTM) nach Aubenas (LFHO) Frankreich und zurück</li>
+      <li>fast 1200km mit einer Geschwindigkeit von 188km/h</li>
+    </ul>
+  </li>
+  <li>Zweiter Weltrekordversuch am 14.07.22
+    <ul>
+      <li>von Mengen (EDTM) nach San Sebastian (LESO) Spanien (über 2000km)</li>
+      <li>deutlich unter 100l Sprit</li>
+      <li>Live auf Flightradar verfolgbar</li>
+      <li>Probleme mit einem Sensor</li>
+      <li>aus Sicherheitsgründen musste in Frankreich gelandet und der Versuch abgebrochen werden</li>
+      <li>außerplanmäßige Landung in Frankreich</li>
+    </ul>
+  </li>
+  <li>Dritter Weltrekordversuch ende Juli erfolgreich
+    <ul>
+      <li>von Mengen (EDTM) nach San Sebastian (LESO)</li>
+      <li>aufgrund des langen Fluges schneller als optimal</li>
+      <li>2004.7km mit einer Geschwindigkeit von 191.58km/h</li>
+      <li>81 Liter Sprit wurden verbraucht</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Was war? Was ist? Was wird? Ein kleines Update warum es in letzter Zeit so ruhig war und was trotzdem passiert ist. Ich beschäftige mich mit den letzten Coronasemestern. Dem Homepagebau. Mit Neuigkeiten vom James Webb Weltraumteleskop und der e-Genius Rekordjagd.]]></summary></entry><entry><title type="html">Huston, we have a homepage!</title><link href="https://mensa-talk.github.io/2022/07/10/Neue-Homepage-online.html" rel="alternate" type="text/html" title="Huston, we have a homepage!" /><published>2022-07-10T00:00:00+02:00</published><updated>2022-07-10T00:00:00+02:00</updated><id>https://mensa-talk.github.io/2022/07/10/Neue%20Homepage%20online</id><content type="html" xml:base="https://mensa-talk.github.io/2022/07/10/Neue-Homepage-online.html"><![CDATA[<p><br />
 <strong>Achtung! Die Homepage befinden sich noch im Aufbau.</strong></p>
 
-<p>Wahrscheinlich wird sich noch einiges ändern.</p>
+<p>Wahrscheinlich wird sich noch einiges ändern. 
+<img src="\assets\img\Under_Construction.png" alt="Under Construction" /></p>
 
-<p><img src="\assets\img\Under_Construction.png" alt="Under Construction" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Der Mensa Talk hat eine Heimat gefunden. Ab jetzt gibt es hier neben den neuen Epsidon auch noch Neuigkeiten rund um den Mensa Talk.]]></summary></entry><entry><title type="html">Sie können hier nicht parken, kreisen sie weiter!</title><link href="https://mensa-talk.github.io/2022/04/23/Sie-k%C3%B6nnen-hier-nicht-parken,-kreisen-sie-weiter!.html" rel="alternate" type="text/html" title="Sie können hier nicht parken, kreisen sie weiter!" /><published>2022-04-23T00:00:00+02:00</published><updated>2022-04-23T00:00:00+02:00</updated><id>https://mensa-talk.github.io/2022/04/23/Sie%20k%C3%B6nnen%20hier%20nicht%20parken,%20kreisen%20sie%20weiter!</id><content type="html" xml:base="https://mensa-talk.github.io/2022/04/23/Sie-k%C3%B6nnen-hier-nicht-parken,-kreisen-sie-weiter!.html"><![CDATA[<h2 id="kapitel">Kapitel</h2>
+<hr />
+
+<h2 id="verwendete-tools">Verwendete Tools</h2>
+<h3 id="markdown">Markdown</h3>
+<p>Markdown ist eine Auszeichnungssprache. Das heißt, neben dem eigentlichen Inhalt wird das Format, also das Aussehen des Inhaltes auch gleich zusammen mit dem Inhalt in den Text geschrieben. Im Prinzip funktionieren html und latex Dokumente genau so. Markdown ist aber besonders einfach und eignet sich damit besonders für einfache Text die schnell “runtergeschrieben” werden und dabei halbwegs OK aussehen sollen.</p>
+
+<ul>
+  <li><a href="https://de.wikipedia.org/wiki/Markdown">Markdown auf Wikipedia</a></li>
+</ul>
+
+<h3 id="jekyll-static-site-generator">Jekyll static Site generator</h3>
+<p>Konvertiert Markdown Files in HTML Code. Dabei werden auf den Inhalt diverse Formatvorlagen angewandt. Die generiete Seite ist statisch. Es werden keine server- oder clientseitige Skripte Verwendet. Man benötigt also keine Tools wie Wordpress etc.</p>
+
+<ul>
+  <li><a href="https://jekyllrb.com/">Jekyll site generator</a></li>
+</ul>
+
+<h3 id="github-pages">Github Pages</h3>
+<p>Github ist eigentlich ein Service um Code zu versionieren und die Zusammenarbeit mit anderen zu erleichtern. Github Pages wiederrum ist ursprünglich dazu gedacht eine Homepage für die Dokumenation von Softwareprojekten zu bieten.</p>
+
+<ul>
+  <li><a href="https://github.com/">Github</a></li>
+  <li><a href="https://pages.github.com/">Github Pages</a></li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Der Mensa Talk hat eine Heimat gefunden. Ab jetzt gibt es hier neben den neuen Epsidon auch noch Neuigkeiten rund um den Mensa Talk.]]></summary></entry><entry><title type="html">Sie können hier nicht parken, kreisen sie weiter!</title><link href="https://mensa-talk.github.io/2022/04/23/Sie-k%C3%B6nnen-hier-nicht-parken,-kreisen-sie-weiter!.html" rel="alternate" type="text/html" title="Sie können hier nicht parken, kreisen sie weiter!" /><published>2022-04-23T00:00:00+02:00</published><updated>2022-04-23T00:00:00+02:00</updated><id>https://mensa-talk.github.io/2022/04/23/Sie%20k%C3%B6nnen%20hier%20nicht%20parken,%20kreisen%20sie%20weiter!</id><content type="html" xml:base="https://mensa-talk.github.io/2022/04/23/Sie-k%C3%B6nnen-hier-nicht-parken,-kreisen-sie-weiter!.html"><![CDATA[<h2 id="kapitel">Kapitel</h2>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>00:00:00 	Intro
 00:00:34 	Begrüßung
 00:01:03 	Was ist das James Webb Teleskop?

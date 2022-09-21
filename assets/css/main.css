@@ -141,7 +141,7 @@ body { background-color: #fff; background-image: url("data:image/svg+xml;utf8,%3
 
 .content .post a { color: black; }
 
-.content .post h2 { padding-top: 5px; margin-right: 5px; line-height: 1.5; }
+.content .post h2 { padding-top: 5px; margin-right: 5px; }
 
 .content .post h2 a { margin-bottom: 10px; }
 
@@ -167,7 +167,7 @@ body { background-color: #fff; background-image: url("data:image/svg+xml;utf8,%3
 
 .container .content .single-post p { font-size: 1.1rem; }
 
-.container .content .single-post h2 { text-align: center; line-height: 1.5; }
+.container .content .single-post h2 { text-align: center; line-height: 1.5; margin-top: 30px; }
 
 .container .content .single-post h3 { text-align: center; margin-top: 30px; }
 

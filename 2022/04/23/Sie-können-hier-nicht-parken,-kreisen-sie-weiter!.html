@@ -82,11 +82,13 @@
         
         
 
-        <div class = "player-container">
+		
+				<div class = "player-container">
     <audio class="player" disableContextMenu data-plyr-config='{ "title": "Sie können hier nicht parken, kreisen sie weiter!"}'>
         <source src="https://s3.castbox.fm/b3/21/a9/a08d3545ff972da4c2b7300748.mp3" type="audio/mp3" />
     </audio>
 </div>
+		
 
         <h2 id="kapitel">Kapitel</h2>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>00:00:00 	Intro
@@ -211,7 +213,7 @@ ist lizenzensiert unter der <a href="https://creativecommons.org/licenses/by-sa/
     <li></li>
     <li></li>
     <li></li>
-</ul><script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
+</ul><script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
 
 <script>
     //See https://github.com/sampotts/plyr for more informations about customization
@@ -226,8 +228,7 @@ ist lizenzensiert unter der <a href="https://creativecommons.org/licenses/by-sa/
      'mute',
      'volume',
      'settings',
-     'airplay',
-    ];
+     ];
 
     const players = Array.from(document.querySelectorAll(".player"));
         players.map(player => new Plyr(player, {
