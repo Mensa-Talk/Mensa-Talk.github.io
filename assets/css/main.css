@@ -8,6 +8,10 @@ p a { display: inline-block; font-style: italic; border-bottom: 1px solid #01a0e
 
 p a:hover { background-color: rgba(0, 160, 227, 0.2); border-bottom: none; }
 
+ul { display: block; list-style-type: disc; padding-left: 0px; margin: 1em 0; }
+
+ul ul { display: block; list-style-type: disc; padding-left: 20px; margin: 1em 0; }
+
 .container { display: flex; flex-direction: row; justify-content: space-evenly; align-items: flex-start; }
 
 .container .content { order: 1; width: 55%; }
@@ -170,6 +174,8 @@ body { background-color: #fff; background-image: url("data:image/svg+xml;utf8,%3
 .container .content .single-post h2 { text-align: center; line-height: 1.5; margin-top: 30px; }
 
 .container .content .single-post h3 { text-align: center; margin-top: 30px; }
+
+.container .content .single-post h4 { text-align: left; margin-left: 0; }
 
 .container .content .single-post a { text-decoration: none; color: black; display: inline-block; font-style: italic; border-bottom: 1px solid #01a0e4; line-height: 0.9; transition: background-color 0.1s cubic-bezier(0.33, 0.66, 0.66, 1); }
 

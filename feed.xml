@@ -1,18 +1,146 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://mensa-talk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mensa-talk.github.io/" rel="alternate" type="text/html" /><updated>2022-09-21T21:46:55+02:00</updated><id>https://mensa-talk.github.io/feed.xml</id><title type="html">Mensa Talk</title><subtitle>Blog und Podcast&lt;br&gt; Neuigkeiten und Wissenwertes aus meinem Uni Alltag&lt;br&gt; Fun Facts und neu gewonnene Erkenntnisse&lt;br&gt; Vorstellung von interessanten Veröffentlichungen&lt;br&gt; Tools die man kennen und lieben sollte&lt;br&gt;</subtitle><entry><title type="html">Mann ist das ruhig hier - Mensa Talk Update</title><link href="https://mensa-talk.github.io/2022/09/21/Mensa-Talk-News.html" rel="alternate" type="text/html" title="Mann ist das ruhig hier - Mensa Talk Update" /><published>2022-09-21T00:00:00+02:00</published><updated>2022-09-21T00:00:00+02:00</updated><id>https://mensa-talk.github.io/2022/09/21/Mensa%20Talk%20News</id><content type="html" xml:base="https://mensa-talk.github.io/2022/09/21/Mensa-Talk-News.html"><![CDATA[<p><br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://mensa-talk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mensa-talk.github.io/" rel="alternate" type="text/html" /><updated>2022-09-29T17:32:20+02:00</updated><id>https://mensa-talk.github.io/feed.xml</id><title type="html">Mensa Talk</title><subtitle>Blog und Podcast&lt;br&gt; Neuigkeiten und Wissenwertes aus meinem Uni Alltag&lt;br&gt; Fun Facts und neu gewonnene Erkenntnisse&lt;br&gt; Vorstellung von interessanten Veröffentlichungen&lt;br&gt; Tools die man kennen und lieben sollte&lt;br&gt;</subtitle><entry><title type="html">Don’t look up!</title><link href="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html" rel="alternate" type="text/html" title="Don’t look up!" /><published>2022-09-29T17:31:00+02:00</published><updated>2022-09-29T17:31:00+02:00</updated><id>https://mensa-talk.github.io/2022/09/29/don-t-look-up</id><content type="html" xml:base="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html"><![CDATA[<h2 id="kapitel">Kapitel:</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>00:00:00 Vorwort
+00:03:44 Intro
+00:04:15 Worum geht es bei der Übung?
+00:06:35 Tag1 - Ein Asteroid wird entdeckt
+00:13:09 Der Alarmplan wird ausgelöst.
+00:20:01 Tag 2 - Er wird treffen!
+00:22:26 Ist eine Rettungsmission möglich?
+00:27:13 Tag 3 - Ein Zeitsprung!
+00:30:31 Deutschland könnte getroffen werden
+00:33:12 Tag 4 - Eine Woche vor dem Einschlag.
+00:36:35 Outro
+</code></pre></div></div>
+
+<h2 id="vorbemerkung">Vorbemerkung</h2>
+<ul>
+  <li><a href="https://mensa-talk.github.io">Ausführliche Shownotes</a></li>
+  <li>Alle Informationen zur Übung lassen sich auch auf der Seite der <a href="https://cneos.jpl.nasa.gov/pd/cs/pdc21/"> Planetary Defense Conference Exercise - 2021</a> finden.</li>
+  <li><a href="https://youtu.be/RW6jS9bJ5bo">Der Trail zum Film “Meteor”</a></li>
+</ul>
+
+<h2 id="hintergrund">Hintergrund</h2>
+<ul>
+  <li>“Reupload” - Beitrag ist im Rahmen einer Vorlesung im SS21 entstanden</li>
+  <li>Aktuelle DART Mission wird in einer weiteren Folge behandelt</li>
+  <li>Die 2022 gab es die <a href="https://cneos.jpl.nasa.gov/pd/cs/ttx22/">Interagency Tabletop Exercise</a>
+    <ul>
+      <li>70m Asteroid trifft North Carolina</li>
+      <li>Test des Zusammenspiels verschiedener Behörden</li>
+      <li>größerer Focus auf Vorbereitung/Nachbereitung der Bevölkerung</li>
+      <li>auch Fake News und die Zeit nach dem Impact wurden behandelt</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="tag-1">Tag 1</h2>
+<ul>
+  <li>Meldung eines Asteroiden von <a href="https://de.wikipedia.org/wiki/Pan-STARRS">Pan-STARRS Observatorium</a> auf Hawai am 19. April 21
+    <ul>
+      <li>das Observatorium ist spezialisiert für die Suche nach Asteroiden</li>
+      <li>Relativ große Abdeckung des Himmels</li>
+    </ul>
+  </li>
+  <li>Die Beobachtung wurde dann die Nacht bestätigt und das Objekt hat den Namen “2021 PDC” erhalten</li>
+  <li>Beobachtbar mit einer <a href="https://de.wikipedia.org/wiki/Scheinbare_Helligkeit">Magnitude</a> 21.4  (sehr schwach und nur mit Forschungsteleskopen beobachtbar)</li>
+</ul>
+
+<h3 id="weitere-beobachtungen-über-einer-woche">Weitere Beobachtungen über einer Woche</h3>
+<ul>
+  <li>Abschätzung ergeben erste Bahndaten die von der NASA und ESA ausgewertet wurden
+    <ul>
+      <li>mehr oder weniger konstante Entfernung von  57 Mio km</li>
+      <li>Aber Bahn der Erde wird am 20. Oktober 21 gekreuzt, Impactrisiko liegt bei 5%</li>
+      <li>Erste Größenabschätzung: 80-200 m nominal (ohne Beobachtungsunsicherheiten) aber 35-700m mit Beobachtungsunsicherheit</li>
+    </ul>
+  </li>
+  <li>Es wird ein Alarmplan des ausgelöst <a href="https://iawn.net/">International Asteroid Warning Network</a> ausgelöst (Impactwahrscheinlichkeit und vermutliche Größe)</li>
+  <li>Es werden mehr Informationen benötigt um die Bahnunsicherheit zu verkleinern</li>
+  <li><a href="https://en.wikipedia.org/wiki/Precovery">Pre-Discovery Oberservations</a> werden gesucht (Zufallsfunde)</li>
+  <li>Potential Impact Zones werden berechnet</li>
+  <li>Aufgrund der Unsicherheit zum derzeitigen Datenstand 2/3 der Erde
+    <ul>
+      <li>Warum mehr als die Hälfte? =&gt; Gravitationseinfluss</li>
+      <li>Australien bleibt verschont</li>
+      <li>Je nachdem wo der Asteroid eintritt verändert sich der Aufschlagswinkel und die Aufschlagsgeschwindigkeit (Länge des Weges durch die Atmosphäre)</li>
+      <li>Mehrere Szenarios werden Durchgerechnet und Risiken bewerten
+        <ul>
+          <li>0-86M Menschen könnten betroffen sein, Am wahrscheinlichsten ist kein Schaden an der Bevölkerung (97% und 48% bei Treffer)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Weitere Beobachtung würden dazu führen dass die Impactwahrscheinlichkeit entweder schnell steigt (auf bis zu 30% innerhalb der nächste Woche) oder aber sie bleibt sehr niedrig bzw. wird null.</li>
+</ul>
+
+<h3 id="warum-ist-die-größe-so-unsicher">Warum ist die Größe so unsicher?</h3>
+<ul>
+  <li>Die Größenschätzung basiert auf eine Helligkeitsmessung und die Oberfläche des Asteroiden ist unbekannt (hell oder dunkel), =&gt; 60m bei Heller Oberfläche und 400m bei dunkler</li>
+  <li>Wird zusätzlich die Unsicherheit der Helligkeitsmessung berücksichtigt 35m-700m</li>
+</ul>
+
+<h2 id="tag-2">Tag 2</h2>
+<h3 id="fast-forward-zum-2-mai-21-2-wochen-nach-entdeckung">Fast Forward zum 2. Mai 21 (2 Wochen nach Entdeckung)</h3>
+<ul>
+  <li>Der Asteroid wird mit 100% Sicherheit die Erde treffen.</li>
+  <li>Im Archiv  des Pan-STARRS Observatoriums wurden Bilder von einem Vorbeiflug im Jahr 2014 gefunden. Mit dieser langen Beobachtungszeit ist die 100% Sicherheit möglich. Der Asteroid leuchtet so schwach, das er zunächst nicht zu entdecken war sondern erst wenn man weiß wo man suchen muss.</li>
+  <li>Wo trifft er?
+    <ul>
+      <li>Irgendwo zwischen  Europa oder Nordafrika</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="wäre-eine-rettungsmission-möglich">Wäre eine Rettungsmission möglich?</h3>
+<ul>
+  <li>Nicht bei 6 Monaten Vorbereitung</li>
+  <li>Grundsätzlich zwei Strategien denkbar - Ablenken oder Zertrümmern</li>
+  <li>Ablenken kommt bei diesem Szenario nicht in Frage, da der Antriebsbedarf zu hoch ist.</li>
+  <li>Rendezvousmanöver  (zum Absetzen einer Atombombe) ist nicht möglich, Asteroid ist zu schnell</li>
+  <li>Treffen mit einer Atomrakete schwierig, schlechter Bahnwinkel macht das Navigieren sehr schwer.</li>
+  <li>Eine Aufklärungsmission wäre dringend nötig, aber aufgrund der Zeit nicht möglich</li>
+</ul>
+
+<h2 id="tag-3">Tag 3</h2>
+<ol>
+  <li>Juni 2021 - International Asteroid Day (4 Monate bis zum Einschlag)
+    <ul>
+      <li>weitere Beobachtungen um die Einschlagzone weiter einzugrenzen</li>
+      <li>Infrarotmessungen über Satellit:  Nasa <a href="https://www.jpl.nasa.gov/missions/neowise">Neowise Satellit</a> konnte die Größe etwas eingrenzen 35m- 500m</li>
+    </ul>
+    <ul>
+      <li>Neowise ist ein eigentlich stillgelegtes  Weltraumteleskop das reaktiviert werden könnte. Es wurde bereits im Jahr 2013-2016 reaktiviert.
+      - Die Impactzone wird irgendwo zwischen Deutschland der Tschechischen Republik und Österreich liegen</li>
+    </ul>
+  </li>
+</ol>
+
+<ul>
+  <li>Weitere Berechnung über Mögliche Schäden:
+    <ul>
+      <li>Worst Case wäre ein Einschlag in Deutschland</li>
+      <li>Mit den derzeitigen Daten bis zu 6.6 Mio Personen wäre betroffen (Tot? - nicht ganz klar aber wahrscheinlich) im Mittel ist mit 580k betroffenen zu rechnen</li>
+      <li>entspricht eine Explosion von 1(kleinen) bis  300 großen Atombomben (0.7-3700Mt)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="tag-4---finale">Tag 4 - Finale</h2>
+<p>14 Oktober - 6 Tage vor dem Einschlag</p>
+<ul>
+  <li>Die Größe kann jetzt mit Radar bestimmt werden (105m 10%). Zum Glück kleiner als zunächst vermutet</li>
+  <li>Einschlagzone kann auf 23 km genau bestimmt werden und die Einschlag Zeit auf 1 Sekunde</li>
+  <li>Da die Dichte nicht bekannt ist ist die Wirkung immer noch unsicher kann aber mit 9- 156Mt bestimmt werden wobei das Mittel etwa 40 Mt sind (1-15 Atombomben)</li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Anlässlich der Nasa DART Mission gibt es dieses Mal ein ReUpload eines Beitrages der im Rahmen einer Vorlesung im SS21 entstanden ist. Es geht um die Planetary Defense Übung auf der 7th International Academy of Aeronautics (IAA) Planetary Defense Conference 26.04.21-30.04.21. Die Leitung hatte unter anderem das NASA JPL (Jet Propulsion Labratory) auch bekannt von der Mars Ladung mit Perseverance und dem ersten Drohnennflug auf dem Mars. Alles ist ein Planspiel und es gibt keine echte Bedrohung. Die Übung dauerte 4 Tage.]]></summary></entry><entry><title type="html">Mann ist das ruhig hier - Mensa Talk Update</title><link href="https://mensa-talk.github.io/2022/09/21/Mensa-Talk-News.html" rel="alternate" type="text/html" title="Mann ist das ruhig hier - Mensa Talk Update" /><published>2022-09-21T00:00:00+02:00</published><updated>2022-09-21T00:00:00+02:00</updated><id>https://mensa-talk.github.io/2022/09/21/Mensa%20Talk%20News</id><content type="html" xml:base="https://mensa-talk.github.io/2022/09/21/Mensa-Talk-News.html"><![CDATA[<p><br /></p>
 <h2 id="kapitel">Kapitel:</h2>
-<p>00:00:00 Intro</p>
-
-<p>00:00:43 Begrüßung</p>
-
-<p>00:01:12 Erkenntnisse aus den Coronasemestern</p>
-
-<p>00:17:51 Mensa-Talk Homepage</p>
-
-<p>00:26:57 Neues vom James Webb Teleskop</p>
-
-<p>00:37:40 e-Genius Rekordjagd</p>
-
-<p>00:44:42 Outro</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>00:00:00  Intro
+00:00:43  Begrüßung
+00:01:12  Erkenntnisse aus den Coronasemestern
+00:17:51  Mensa-Talk Homepage
+00:26:57  Neues vom James Webb Teleskop
+00:37:40  e-Genius Rekordjagd
+00:44:42  Outro
+</code></pre></div></div>
 
 <h2 id="externe-verweise">externe Verweise:</h2>
 
@@ -77,7 +205,7 @@
   <li>stärker kosmische Strahlung als erwartet, diese macht jedoch keine Probleme</li>
   <li>Größte Gefahr sind Mikrometeoriten
     <ul>
-      <li>Treffer um den 23. Mai 20  22 mit höherem als erwarteten Schaden</li>
+      <li>Treffer um den 23. Mai 2022 mit höherem als erwarteten Schaden</li>
     </ul>
   </li>
 </ul>
