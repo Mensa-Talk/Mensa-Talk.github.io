@@ -71,25 +71,55 @@
                 
                 
         </div>
-        <h2>Die Nullnummer -  Worum geht es hier eigentlich?</h2>
 
-        
-                <img src="https://mensa-talk.github.io/assets/img/Podcast_Cover_500.jpg" alt="Podcast Cover">
-        
-        
-        <p>Worum geht es im Mensa Talk? Warum könnte das für euch interessant sein? Wer bin ich überhaupt?</p>
 
         
         
 
 		
-				<div class = "player-container">
-    <audio class="player" disableContextMenu data-plyr-config='{ "title": "Die Nullnummer -  Worum geht es hier eigentlich?"}'>
-        <source src="https://s3.castbox.fm/24/da/67/8fa98d451581d46c0e7e8a080f.mp3" type="audio/mp3" />
-    </audio>
-</div>
+		
+				<div id = "player-container"></div>
+				<script src="https://cdn.podlove.org/web-player/4.x/embed.js"></script>
+<script>
+	podlovePlayer('#player-container', {
+		"show": {
+			"title": "Mensa Talk",
+			"poster": "/assets/img/Podcast_Cover_500.jpg",
+			"link": "https://mensa-talk.github.io"
+		},
+		"title": "Die Nullnummer -  Worum geht es hier eigentlich?",
+		"summary": "Worum geht es im Mensa Talk? Warum könnte das für euch interessant sein? Wer bin ich überhaupt?",
+		
+        "poster": "/assets/img/Podcast_Cover_500.jpg",
+        
+		"link": "https://mensa-talk.github.io/2022/03/19/Nullnummer.html",
+		"tabs": {
+			info: true},
+		"visibleComponents": [
+		'tabInfo',
+		'tabChapters',
+		'tabAudio',
+		'tabShare',
+		'poster',
+		'showTitle',
+		'episodeTitle',
+		'subtitle',
+		'progressbar',
+		'controlSteppers',
+		'controlChapters'
+		],
+		
+		"audio":[
+			{
+			"url": "https://s3.castbox.fm/24/da/67/8fa98d451581d46c0e7e8a080f.mp3",
+			"mimeType": "audio\/mpeg"
+			}]
+	});
+</script> 
+				
 		
 
+		
         
 
 
@@ -170,7 +200,7 @@
     <li></li>
     <li></li>
     <li></li>
-</ul><script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+</ul><script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
 
 <script>
     //See https://github.com/sampotts/plyr for more informations about customization
@@ -185,7 +215,8 @@
      'mute',
      'volume',
      'settings',
-     ];
+     'airplay',
+    ];
 
     const players = Array.from(document.querySelectorAll(".player"));
         players.map(player => new Plyr(player, {

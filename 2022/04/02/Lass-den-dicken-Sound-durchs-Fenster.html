@@ -71,25 +71,124 @@
                 
                 
         </div>
-        <h2>Lass den dicken Sound durchs Fenster!</h2>
 
-        
-                <img src="https://mensa-talk.github.io/assets/img/Podcast_Cover_500.jpg" alt="Podcast Cover">
-        
-        
-        <p>Windturbinen sind laut. Das sagen zumindest die Gegner. Doch wo kommen die Geräusche eigentlich her. Und was hat es mit dem Infraschall auf sich?</p>
 
         
         
 
 		
-				<div class = "player-container">
-    <audio class="player" disableContextMenu data-plyr-config='{ "title": "Lass den dicken Sound durchs Fenster!"}'>
-        <source src="https://s3.castbox.fm/d6/69/3a/4271844ef6a025ba64232e0a8c.mp3" type="audio/mp3" />
-    </audio>
-</div>
+		
+				<div id = "player-container"></div>
+				<script src="https://cdn.podlove.org/web-player/4.x/embed.js"></script>
+<script>
+	podlovePlayer('#player-container', {
+		"show": {
+			"title": "Mensa Talk",
+			"poster": "/assets/img/Podcast_Cover_500.jpg",
+			"link": "https://mensa-talk.github.io"
+		},
+		"title": "Lass den dicken Sound durchs Fenster!",
+		"summary": "Windturbinen sind laut. Das sagen zumindest die Gegner. Doch wo kommen die Geräusche eigentlich her. Und was hat es mit dem Infraschall auf sich?",
+		
+        "poster": "/assets/img/Podcast_Cover_500.jpg",
+        
+		"link": "https://mensa-talk.github.io/2022/04/02/Lass-den-dicken-Sound-durchs-Fenster.html",
+		"tabs": {
+			info: true},
+		"visibleComponents": [
+		'tabInfo',
+		'tabChapters',
+		'tabAudio',
+		'tabShare',
+		'poster',
+		'showTitle',
+		'episodeTitle',
+		'subtitle',
+		'progressbar',
+		'controlSteppers',
+		'controlChapters'
+		],
+		
+		"chapters": [
+			
+			{
+			"start": "00:00:00", 
+			"title": 'Intro' 
+			},
+			
+			{
+			"start": "00:00:49", 
+			"title": 'Worum geht es?' 
+			},
+			
+			{
+			"start": "00:02:36", 
+			"title": 'Magnetostriktion' 
+			},
+			
+			{
+			"start": "00:05:49", 
+			"title": 'Konstruktive Gegenmaßnahmen' 
+			},
+			
+			{
+			"start": "00:07:58", 
+			"title": 'Umrichtergeräusche' 
+			},
+			
+			{
+			"start": "00:12:35", 
+			"title": 'Aerodynamische Geräusche' 
+			},
+			
+			{
+			"start": "00:01:46", 
+			"title": 'Mechanische Geräusche' 
+			},
+			
+			{
+			"start": "00:26:19", 
+			"title": 'Was wurde gemacht?' 
+			},
+			
+			{
+			"start": "00:31:45", 
+			"title": 'Wie wurden die Daten verarbeitet?' 
+			},
+			
+			{
+			"start": "00:39:33", 
+			"title": 'Auswahl der Daten' 
+			},
+			
+			{
+			"start": "00:44:33", 
+			"title": 'Ergebnisse' 
+			},
+			
+			{
+			"start": "00:49:16", 
+			"title": 'Fazit' 
+			},
+			
+			{
+			"start": "00:51:29", 
+			"title": 'Outro' 
+			},
+			
+			],
+		
+		"audio":[
+			{
+			"url": "https://s3.castbox.fm/d6/69/3a/4271844ef6a025ba64232e0a8c.mp3",
+			"mimeType": "audio\/mpeg"
+			}]
+	});
+</script> 
+				
 		
 
+		
         <h2 id="kapitel">Kapitel:</h2>
 
 <table class="chaptertablestyle">
@@ -254,7 +353,7 @@
     <li></li>
     <li></li>
     <li></li>
-</ul><script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+</ul><script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
 
 <script>
     //See https://github.com/sampotts/plyr for more informations about customization
@@ -269,7 +368,8 @@
      'mute',
      'volume',
      'settings',
-     ];
+     'airplay',
+    ];
 
     const players = Array.from(document.querySelectorAll(".player"));
         players.map(player => new Plyr(player, {

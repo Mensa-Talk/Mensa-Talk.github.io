@@ -97,12 +97,14 @@ September
     
     
 	
+	
 			<div class = "player-container">
     <audio class="player" disableContextMenu data-plyr-config='{ "title": "Don't look up!"}'>
         <source src="https://s3.castbox.fm/40/ac/8d/6d16c74a68a59510765325ad2f.mp3" type="audio/mp3" />
     </audio>
 </div>
 	
+<div class = "player-container", id = "player-container"></div>
 
     <div class = "long-excerpt">
         <p>
@@ -120,8 +122,8 @@ September
             
             <span class = "continue-reading"><a href="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html">Mehr</a></span> 
         </p> 
-    </div>
 
+    </div>
 </div>
 
 
@@ -155,12 +157,14 @@ September
     
     
 	
+	
 			<div class = "player-container">
     <audio class="player" disableContextMenu data-plyr-config='{ "title": "Mann ist das ruhig hier - Mensa Talk Update"}'>
         <source src="https://s3.castbox.fm/a6/99/53/350bb3464da123d6fe17876377.mp4" type="audio/mp3" />
     </audio>
 </div>
 	
+<div class = "player-container", id = "player-container"></div>
 
     <div class = "long-excerpt">
         <p>
@@ -178,8 +182,8 @@ September
             
             <span class = "continue-reading"><a href="https://mensa-talk.github.io/2022/09/21/Mensa-Talk-News.html">Mehr</a></span> 
         </p> 
-    </div>
 
+    </div>
 </div>
 
 
@@ -264,12 +268,14 @@ April
     
     
 	
+	
 			<div class = "player-container">
     <audio class="player" disableContextMenu data-plyr-config='{ "title": "Sie können hier nicht parken, kreisen sie weiter!"}'>
         <source src="https://s3.castbox.fm/b3/21/a9/a08d3545ff972da4c2b7300748.mp3" type="audio/mp3" />
     </audio>
 </div>
 	
+<div class = "player-container", id = "player-container"></div>
 
     <div class = "long-excerpt">
         <p>
@@ -287,8 +293,8 @@ April
             
             <span class = "continue-reading"><a href="https://mensa-talk.github.io/2022/04/23/Sie-k%C3%B6nnen-hier-nicht-parken,-kreisen-sie-weiter!.html">Mehr</a></span> 
         </p> 
-    </div>
 
+    </div>
 </div>
 
 
@@ -322,12 +328,14 @@ April
     
     
 	
+	
 			<div class = "player-container">
     <audio class="player" disableContextMenu data-plyr-config='{ "title": "Lass den dicken Sound durchs Fenster!"}'>
         <source src="https://s3.castbox.fm/d6/69/3a/4271844ef6a025ba64232e0a8c.mp3" type="audio/mp3" />
     </audio>
 </div>
 	
+<div class = "player-container", id = "player-container"></div>
 
     <div class = "long-excerpt">
         <p>
@@ -345,8 +353,8 @@ April
             
             <span class = "continue-reading"><a href="https://mensa-talk.github.io/2022/04/02/Lass-den-dicken-Sound-durchs-Fenster.html">Mehr</a></span> 
         </p> 
-    </div>
 
+    </div>
 </div>
 
 
@@ -440,7 +448,7 @@ April
     <li></li>
     <li></li>
     <li></li>
-</ul><script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+</ul><script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
 
 <script>
     //See https://github.com/sampotts/plyr for more informations about customization
@@ -455,7 +463,8 @@ April
      'mute',
      'volume',
      'settings',
-     ];
+     'airplay',
+    ];
 
     const players = Array.from(document.querySelectorAll(".player"));
         players.map(player => new Plyr(player, {

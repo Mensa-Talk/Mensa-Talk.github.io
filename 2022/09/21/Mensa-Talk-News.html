@@ -71,68 +71,95 @@
                 
                 
         </div>
-        <h2>Mann ist das ruhig hier - Mensa Talk Update</h2>
 
-        
-                <img src="https://mensa-talk.github.io/assets/img/Podcast_Cover_500.jpg" alt="Podcast Cover">
-        
-        
-        <p>Was war? Was ist? Was wird? Ein kleines Update warum es in letzter Zeit so ruhig war und was trotzdem passiert ist. Ich beschäftige mich mit den letzten Coronasemestern. Dem Homepagebau. Mit Neuigkeiten vom James Webb Weltraumteleskop und der e-Genius Rekordjagd.</p>
 
         
         
 
 		
-				<div class = "player-container">
-    <audio class="player" disableContextMenu data-plyr-config='{ "title": "Mann ist das ruhig hier - Mensa Talk Update"}'>
-        <source src="https://s3.castbox.fm/a6/99/53/350bb3464da123d6fe17876377.mp4" type="audio/mp3" />
-    </audio>
-</div>
+		
+				<div id = "player-container"></div>
+				<script src="https://cdn.podlove.org/web-player/4.x/embed.js"></script>
+<script>
+	podlovePlayer('#player-container', {
+		"show": {
+			"title": "Mensa Talk",
+			"poster": "/assets/img/Podcast_Cover_500.jpg",
+			"link": "https://mensa-talk.github.io"
+		},
+		"title": "Mann ist das ruhig hier - Mensa Talk Update",
+		"summary": "Was war? Was ist? Was wird? Ein kleines Update warum es in letzter Zeit so ruhig war und was trotzdem passiert ist. Ich beschäftige mich mit den letzten Coronasemestern. Dem Homepagebau. Mit Neuigkeiten vom James Webb Weltraumteleskop und der e-Genius Rekordjagd.",
+		
+        "poster": "/assets/img/Podcast_Cover_500.jpg",
+        
+		"link": "https://mensa-talk.github.io/2022/09/21/Mensa-Talk-News.html",
+		"tabs": {
+			info: true},
+		"visibleComponents": [
+		'tabInfo',
+		'tabChapters',
+		'tabAudio',
+		'tabShare',
+		'poster',
+		'showTitle',
+		'episodeTitle',
+		'subtitle',
+		'progressbar',
+		'controlSteppers',
+		'controlChapters'
+		],
+		
+		"chapters": [
+			
+			{
+			"start": "00:00:00", 
+			"title": 'Intro' 
+			},
+			
+			{
+			"start": "00:00:43", 
+			"title": 'Begrüßung' 
+			},
+			
+			{
+			"start": "00:01:12", 
+			"title": 'Erkenntnisse aus den Coronasemestern' 
+			},
+			
+			{
+			"start": "00:17:51", 
+			"title": 'Mensa-Talk Homepage' 
+			},
+			
+			{
+			"start": "00:26:57", 
+			"title": 'Neues vom James Webb Teleskop' 
+			},
+			
+			{
+			"start": "00:37:40", 
+			"title": 'e-Genius Rekordjagd' 
+			},
+			
+			{
+			"start": "00:44:42", 
+			"title": 'Outro' 
+			},
+			
+			],
+		
+		"audio":[
+			{
+			"url": "https://s3.castbox.fm/a6/99/53/350bb3464da123d6fe17876377.mp4",
+			"mimeType": "audio\/mpeg"
+			}]
+	});
+</script> 
+				
 		
 
-        <p><br /></p>
-<h2 id="kapitel">Kapitel:</h2>
-
-<table class="chaptertablestyle">
-  <thead>
-    <tr>
-      <th><!-- --></th>
-      <th><!-- --></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>00:00:00</td>
-      <td>Intro</td>
-    </tr>
-    <tr>
-      <td>00:00:43</td>
-      <td>Begrüßung</td>
-    </tr>
-    <tr>
-      <td>00:01:12</td>
-      <td>Erkenntnisse aus den Coronasemestern</td>
-    </tr>
-    <tr>
-      <td>00:17:51</td>
-      <td>Mensa-Talk Homepage</td>
-    </tr>
-    <tr>
-      <td>00:26:57</td>
-      <td>Neues vom James Webb Teleskop</td>
-    </tr>
-    <tr>
-      <td>00:37:40</td>
-      <td>e-Genius Rekordjagd</td>
-    </tr>
-    <tr>
-      <td>00:44:42</td>
-      <td>Outro</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="externe-verweise">externe Verweise:</h2>
+		
+        <h2 id="externe-verweise">externe Verweise:</h2>
 
 <ul>
   <li><a href="https://www.student.uni-stuttgart.de/aktuelles/video/Modulevaluation/">Erklärvideo Modulevaluation</a></li>
@@ -313,7 +340,7 @@
     <li></li>
     <li></li>
     <li></li>
-</ul><script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+</ul><script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
 
 <script>
     //See https://github.com/sampotts/plyr for more informations about customization
@@ -328,7 +355,8 @@
      'mute',
      'volume',
      'settings',
-     ];
+     'airplay',
+    ];
 
     const players = Array.from(document.querySelectorAll(".player"));
         players.map(player => new Plyr(player, {

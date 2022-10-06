@@ -1,61 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://mensa-talk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mensa-talk.github.io/" rel="alternate" type="text/html" /><updated>2022-10-03T12:25:03+02:00</updated><id>https://mensa-talk.github.io/feed.xml</id><title type="html">Mensa Talk</title><subtitle>Blog und Podcast&lt;br&gt; Neuigkeiten und Wissenwertes aus meinem Uni Alltag&lt;br&gt; Fun Facts und neu gewonnene Erkenntnisse&lt;br&gt; Vorstellung von interessanten Veröffentlichungen&lt;br&gt; Tools die man kennen und lieben sollte&lt;br&gt;</subtitle><entry><title type="html">Don’t look up!</title><link href="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html" rel="alternate" type="text/html" title="Don’t look up!" /><published>2022-09-29T17:31:00+02:00</published><updated>2022-09-29T17:31:00+02:00</updated><id>https://mensa-talk.github.io/2022/09/29/don-t-look-up</id><content type="html" xml:base="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html"><![CDATA[<h2 id="kapitel">Kapitel:</h2>
-
-<table class="chaptertablestyle">
-  <thead>
-    <tr>
-      <th><!-- --></th>
-      <th><!-- --></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>00:00:00</td>
-      <td>Vorwort</td>
-    </tr>
-    <tr>
-      <td>00:03:44</td>
-      <td>Intro</td>
-    </tr>
-    <tr>
-      <td>00:04:15</td>
-      <td>Worum geht es bei der Übung?</td>
-    </tr>
-    <tr>
-      <td>00:06:35</td>
-      <td>Tag1 - Ein Asteroid wird entdeckt</td>
-    </tr>
-    <tr>
-      <td>00:13:09</td>
-      <td>Der Alarmplan wird ausgelöst.</td>
-    </tr>
-    <tr>
-      <td>00:20:01</td>
-      <td>Tag 2 - Er wird treffen!</td>
-    </tr>
-    <tr>
-      <td>00:22:26</td>
-      <td>Ist eine Rettungsmission möglich?</td>
-    </tr>
-    <tr>
-      <td>00:27:13</td>
-      <td>Tag 3 - Ein Zeitsprung!</td>
-    </tr>
-    <tr>
-      <td>00:30:31</td>
-      <td>Deutschland könnte getroffen werden</td>
-    </tr>
-    <tr>
-      <td>00:33:12</td>
-      <td>Tag 4 - Eine Woche vor dem Einschlag.</td>
-    </tr>
-    <tr>
-      <td>00:36:35</td>
-      <td>Outro</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="vorbemerkung">Vorbemerkung</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://mensa-talk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mensa-talk.github.io/" rel="alternate" type="text/html" /><updated>2022-10-06T21:45:04+02:00</updated><id>https://mensa-talk.github.io/feed.xml</id><title type="html">Mensa Talk</title><subtitle>Blog und Podcast&lt;br&gt; Neuigkeiten und Wissenwertes aus meinem Uni Alltag&lt;br&gt; Fun Facts und neu gewonnene Erkenntnisse&lt;br&gt; Vorstellung von interessanten Veröffentlichungen&lt;br&gt; Tools die man kennen und lieben sollte&lt;br&gt;</subtitle><entry><title type="html">Don’t look up!</title><link href="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html" rel="alternate" type="text/html" title="Don’t look up!" /><published>2022-09-29T17:31:00+02:00</published><updated>2022-09-29T17:31:00+02:00</updated><id>https://mensa-talk.github.io/2022/09/29/don-t-look-up</id><content type="html" xml:base="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html"><![CDATA[<h2 id="vorbemerkung">Vorbemerkung</h2>
 <ul>
   <li><a href="https://mensa-talk.github.io">Ausführliche Shownotes</a></li>
   <li>Alle Informationen zur Übung lassen sich auch auf der Seite der <a href="https://cneos.jpl.nasa.gov/pd/cs/pdc21/"> Planetary Defense Conference Exercise - 2021</a> finden.</li>
@@ -174,49 +117,7 @@
   <li>Die Größe kann jetzt mit Radar bestimmt werden (105m 10%). Zum Glück kleiner als zunächst vermutet</li>
   <li>Einschlagzone kann auf 23 km genau bestimmt werden und die Einschlag Zeit auf 1 Sekunde</li>
   <li>Da die Dichte nicht bekannt ist ist die Wirkung immer noch unsicher kann aber mit 9- 156Mt bestimmt werden wobei das Mittel etwa 40 Mt sind (1-15 Atombomben)</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Anlässlich der Nasa DART Mission gibt es dieses Mal ein ReUpload eines Beitrages der im Rahmen einer Vorlesung im SS21 entstanden ist. Es geht um die Planetary Defense Übung auf der 7th International Academy of Aeronautics (IAA) Planetary Defense Conference 26.04.21-30.04.21. Die Leitung hatte unter anderem das NASA JPL (Jet Propulsion Labratory) auch bekannt von der Mars Ladung mit Perseverance und dem ersten Drohnennflug auf dem Mars. Alles ist ein Planspiel und es gibt keine echte Bedrohung. Die Übung dauerte 4 Tage.]]></summary></entry><entry><title type="html">Mann ist das ruhig hier - Mensa Talk Update</title><link href="https://mensa-talk.github.io/2022/09/21/Mensa-Talk-News.html" rel="alternate" type="text/html" title="Mann ist das ruhig hier - Mensa Talk Update" /><published>2022-09-21T00:00:00+02:00</published><updated>2022-09-21T00:00:00+02:00</updated><id>https://mensa-talk.github.io/2022/09/21/Mensa%20Talk%20News</id><content type="html" xml:base="https://mensa-talk.github.io/2022/09/21/Mensa-Talk-News.html"><![CDATA[<p><br /></p>
-<h2 id="kapitel">Kapitel:</h2>
-
-<table class="chaptertablestyle">
-  <thead>
-    <tr>
-      <th><!-- --></th>
-      <th><!-- --></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>00:00:00</td>
-      <td>Intro</td>
-    </tr>
-    <tr>
-      <td>00:00:43</td>
-      <td>Begrüßung</td>
-    </tr>
-    <tr>
-      <td>00:01:12</td>
-      <td>Erkenntnisse aus den Coronasemestern</td>
-    </tr>
-    <tr>
-      <td>00:17:51</td>
-      <td>Mensa-Talk Homepage</td>
-    </tr>
-    <tr>
-      <td>00:26:57</td>
-      <td>Neues vom James Webb Teleskop</td>
-    </tr>
-    <tr>
-      <td>00:37:40</td>
-      <td>e-Genius Rekordjagd</td>
-    </tr>
-    <tr>
-      <td>00:44:42</td>
-      <td>Outro</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="externe-verweise">externe Verweise:</h2>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Anlässlich der Nasa DART Mission gibt es dieses Mal ein ReUpload eines Beitrages der im Rahmen einer Vorlesung im SS21 entstanden ist. Es geht um die Planetary Defense Übung auf der 7th International Academy of Aeronautics (IAA) Planetary Defense Conference 26.04.21-30.04.21. Die Leitung hatte unter anderem das NASA JPL (Jet Propulsion Labratory) auch bekannt von der Mars Ladung mit Perseverance und dem ersten Drohnennflug auf dem Mars. Alles ist ein Planspiel und es gibt keine echte Bedrohung. Die Übung dauerte 4 Tage.]]></summary></entry><entry><title type="html">Mann ist das ruhig hier - Mensa Talk Update</title><link href="https://mensa-talk.github.io/2022/09/21/Mensa-Talk-News.html" rel="alternate" type="text/html" title="Mann ist das ruhig hier - Mensa Talk Update" /><published>2022-09-21T00:00:00+02:00</published><updated>2022-09-21T00:00:00+02:00</updated><id>https://mensa-talk.github.io/2022/09/21/Mensa%20Talk%20News</id><content type="html" xml:base="https://mensa-talk.github.io/2022/09/21/Mensa-Talk-News.html"><![CDATA[<h2 id="externe-verweise">externe Verweise:</h2>
 
 <ul>
   <li><a href="https://www.student.uni-stuttgart.de/aktuelles/video/Modulevaluation/">Erklärvideo Modulevaluation</a></li>
@@ -345,76 +246,7 @@
 <ul>
   <li><a href="https://github.com/">Github</a></li>
   <li><a href="https://pages.github.com/">Github Pages</a></li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Der Mensa Talk hat eine Heimat gefunden. Ab jetzt gibt es hier neben den neuen Epsidon auch noch Neuigkeiten rund um den Mensa Talk.]]></summary></entry><entry><title type="html">Sie können hier nicht parken, kreisen sie weiter!</title><link href="https://mensa-talk.github.io/2022/04/23/Sie-k%C3%B6nnen-hier-nicht-parken,-kreisen-sie-weiter!.html" rel="alternate" type="text/html" title="Sie können hier nicht parken, kreisen sie weiter!" /><published>2022-04-23T00:00:00+02:00</published><updated>2022-04-23T00:00:00+02:00</updated><id>https://mensa-talk.github.io/2022/04/23/Sie%20k%C3%B6nnen%20hier%20nicht%20parken,%20kreisen%20sie%20weiter!</id><content type="html" xml:base="https://mensa-talk.github.io/2022/04/23/Sie-k%C3%B6nnen-hier-nicht-parken,-kreisen-sie-weiter!.html"><![CDATA[<h2 id="kapitel">Kapitel</h2>
-
-<table class="chaptertablestyle">
-  <thead>
-    <tr>
-      <th><!-- --></th>
-      <th><!-- --></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>00:00:00</td>
-      <td>Intro</td>
-    </tr>
-    <tr>
-      <td>00:00:34</td>
-      <td>Begrüßung</td>
-    </tr>
-    <tr>
-      <td>00:01:03</td>
-      <td>Was ist das James Webb Teleskop?</td>
-    </tr>
-    <tr>
-      <td>00:01:59</td>
-      <td>Wer war James Webb?</td>
-    </tr>
-    <tr>
-      <td>00:02:27</td>
-      <td>Infrarotastronomie</td>
-    </tr>
-    <tr>
-      <td>00:06:09</td>
-      <td>Fliegende Sternwarte SOFIA</td>
-    </tr>
-    <tr>
-      <td>00:08:41</td>
-      <td>Was ist am Webb Teleskop besonders?</td>
-    </tr>
-    <tr>
-      <td>00:15:24</td>
-      <td>Polyimid</td>
-    </tr>
-    <tr>
-      <td>00:17:34</td>
-      <td>Wo parken wir das Teleskop?</td>
-    </tr>
-    <tr>
-      <td>00:20:40</td>
-      <td>Lagrange Punkte</td>
-    </tr>
-    <tr>
-      <td>00:32:32</td>
-      <td>James Webb Orbit</td>
-    </tr>
-    <tr>
-      <td>00:36:03</td>
-      <td>Halo Orbit</td>
-    </tr>
-    <tr>
-      <td>00:43:23</td>
-      <td>Alles ist viel komplizierter</td>
-    </tr>
-    <tr>
-      <td>00:44:16</td>
-      <td>Verabschiedung und Outro</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="externe-verweise">externe Verweise:</h2>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Der Mensa Talk hat eine Heimat gefunden. Ab jetzt gibt es hier neben den neuen Epsidon auch noch Neuigkeiten rund um den Mensa Talk.]]></summary></entry><entry><title type="html">Sie können hier nicht parken, kreisen sie weiter!</title><link href="https://mensa-talk.github.io/2022/04/23/Sie-k%C3%B6nnen-hier-nicht-parken,-kreisen-sie-weiter!.html" rel="alternate" type="text/html" title="Sie können hier nicht parken, kreisen sie weiter!" /><published>2022-04-23T00:00:00+02:00</published><updated>2022-04-23T00:00:00+02:00</updated><id>https://mensa-talk.github.io/2022/04/23/Sie%20k%C3%B6nnen%20hier%20nicht%20parken,%20kreisen%20sie%20weiter!</id><content type="html" xml:base="https://mensa-talk.github.io/2022/04/23/Sie-k%C3%B6nnen-hier-nicht-parken,-kreisen-sie-weiter!.html"><![CDATA[<h2 id="externe-verweise">externe Verweise:</h2>
 <ul>
   <li><a href="https://de.wikipedia.org/wiki/James-Webb-Weltraumteleskop">James Webb Teleskop auf Wikipedia</a></li>
   <li><a href="https://jwst.nasa.gov/">NASA Webseite -James Webb Teleskope</a></li>

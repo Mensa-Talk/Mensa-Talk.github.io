@@ -143,7 +143,7 @@
     <li></li>
     <li></li>
     <li></li>
-</ul><script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+</ul><script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
 
 <script>
     //See https://github.com/sampotts/plyr for more informations about customization
@@ -158,7 +158,8 @@
      'mute',
      'volume',
      'settings',
-     ];
+     'airplay',
+    ];
 
     const players = Array.from(document.querySelectorAll(".player"));
         players.map(player => new Plyr(player, {
