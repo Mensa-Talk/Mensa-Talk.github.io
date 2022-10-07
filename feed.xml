@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://mensa-talk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mensa-talk.github.io/" rel="alternate" type="text/html" /><updated>2022-10-06T21:45:04+02:00</updated><id>https://mensa-talk.github.io/feed.xml</id><title type="html">Mensa Talk</title><subtitle>Blog und Podcast&lt;br&gt; Neuigkeiten und Wissenwertes aus meinem Uni Alltag&lt;br&gt; Fun Facts und neu gewonnene Erkenntnisse&lt;br&gt; Vorstellung von interessanten Veröffentlichungen&lt;br&gt; Tools die man kennen und lieben sollte&lt;br&gt;</subtitle><entry><title type="html">Don’t look up!</title><link href="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html" rel="alternate" type="text/html" title="Don’t look up!" /><published>2022-09-29T17:31:00+02:00</published><updated>2022-09-29T17:31:00+02:00</updated><id>https://mensa-talk.github.io/2022/09/29/don-t-look-up</id><content type="html" xml:base="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html"><![CDATA[<h2 id="vorbemerkung">Vorbemerkung</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://mensa-talk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mensa-talk.github.io/" rel="alternate" type="text/html" /><updated>2022-10-07T14:42:20+02:00</updated><id>https://mensa-talk.github.io/feed.xml</id><title type="html">Mensa Talk</title><subtitle>Blog und Podcast&lt;br&gt; Neuigkeiten und Wissenwertes aus meinem Uni Alltag&lt;br&gt; Fun Facts und neu gewonnene Erkenntnisse&lt;br&gt; Vorstellung von interessanten Veröffentlichungen&lt;br&gt; Tools die man kennen und lieben sollte&lt;br&gt;</subtitle><entry><title type="html">Don’t look up!</title><link href="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html" rel="alternate" type="text/html" title="Don’t look up!" /><published>2022-09-29T17:31:00+02:00</published><updated>2022-09-29T17:31:00+02:00</updated><id>https://mensa-talk.github.io/2022/09/29/don-t-look-up</id><content type="html" xml:base="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html"><![CDATA[<h2 id="vorbemerkung">Vorbemerkung</h2>
 <ul>
   <li><a href="https://mensa-talk.github.io">Ausführliche Shownotes</a></li>
   <li>Alle Informationen zur Übung lassen sich auch auf der Seite der <a href="https://cneos.jpl.nasa.gov/pd/cs/pdc21/"> Planetary Defense Conference Exercise - 2021</a> finden.</li>
@@ -277,72 +277,7 @@ Verwendete Animationen:<br />
 
 <p>Die Episode<br />
 <em>Mensa Talk - Sie können hier nicht parken von Stefan Baehr</em><br />
-ist lizenzensiert unter der <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1">CC-BY-SA 4.0</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Es wurde bereits viel über das James Webb Weltraumteleskop berichtet. Wir schauen uns im Mensa Talk den Orbit etwas näher an.]]></summary></entry><entry><title type="html">Lass den dicken Sound durchs Fenster!</title><link href="https://mensa-talk.github.io/2022/04/02/Lass-den-dicken-Sound-durchs-Fenster.html" rel="alternate" type="text/html" title="Lass den dicken Sound durchs Fenster!" /><published>2022-04-02T00:00:00+02:00</published><updated>2022-04-02T00:00:00+02:00</updated><id>https://mensa-talk.github.io/2022/04/02/Lass%20den%20dicken%20Sound%20durchs%20Fenster</id><content type="html" xml:base="https://mensa-talk.github.io/2022/04/02/Lass-den-dicken-Sound-durchs-Fenster.html"><![CDATA[<h2 id="kapitel">Kapitel:</h2>
-
-<table class="chaptertablestyle">
-  <thead>
-    <tr>
-      <th><!-- --></th>
-      <th><!-- --></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>00:00:00</td>
-      <td>Intro</td>
-    </tr>
-    <tr>
-      <td>00:00:49</td>
-      <td>Worum geht es?</td>
-    </tr>
-    <tr>
-      <td>00:02:36</td>
-      <td>Magnetostriktion</td>
-    </tr>
-    <tr>
-      <td>00:05:49</td>
-      <td>Konstruktive Gegenmaßnahmen</td>
-    </tr>
-    <tr>
-      <td>00:07:58</td>
-      <td>Umrichtergeräusche</td>
-    </tr>
-    <tr>
-      <td>00:12:35</td>
-      <td>Aerodynamische Geräusche</td>
-    </tr>
-    <tr>
-      <td>00:01:46</td>
-      <td>Mechanische Geräusche</td>
-    </tr>
-    <tr>
-      <td>00:26:19</td>
-      <td>Was wurde gemacht?</td>
-    </tr>
-    <tr>
-      <td>00:31:45</td>
-      <td>Wie wurden die Daten verarbeitet?</td>
-    </tr>
-    <tr>
-      <td>00:39:33</td>
-      <td>Auswahl der Daten</td>
-    </tr>
-    <tr>
-      <td>00:44:33</td>
-      <td>Ergebnisse</td>
-    </tr>
-    <tr>
-      <td>00:49:16</td>
-      <td>Fazit</td>
-    </tr>
-    <tr>
-      <td>00:51:29</td>
-      <td>Outro</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="externe-verweise">externe Verweise:</h2>
+ist lizenzensiert unter der <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1">CC-BY-SA 4.0</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Es wurde bereits viel über das James Webb Weltraumteleskop berichtet. Wir schauen uns im Mensa Talk den Orbit etwas näher an.]]></summary></entry><entry><title type="html">Lass den dicken Sound durchs Fenster!</title><link href="https://mensa-talk.github.io/2022/04/02/Lass-den-dicken-Sound-durchs-Fenster.html" rel="alternate" type="text/html" title="Lass den dicken Sound durchs Fenster!" /><published>2022-04-02T00:00:00+02:00</published><updated>2022-04-02T00:00:00+02:00</updated><id>https://mensa-talk.github.io/2022/04/02/Lass%20den%20dicken%20Sound%20durchs%20Fenster</id><content type="html" xml:base="https://mensa-talk.github.io/2022/04/02/Lass-den-dicken-Sound-durchs-Fenster.html"><![CDATA[<h2 id="externe-verweise">externe Verweise:</h2>
 
 <ul>
   <li><a href="https://iopscience.iop.org/article/10.1088/1742-6596/2265/3/032048">Esther Blumendellers Veröffentlichung (mittlerweile auch reviewed)</a></li>
