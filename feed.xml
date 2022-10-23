@@ -1,4 +1,208 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://mensa-talk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mensa-talk.github.io/" rel="alternate" type="text/html" /><updated>2022-10-07T14:47:37+02:00</updated><id>https://mensa-talk.github.io/feed.xml</id><title type="html">Mensa Talk</title><subtitle>Blog und Podcast&lt;br&gt; Neuigkeiten und Wissenwertes aus meinem Uni Alltag&lt;br&gt; Fun Facts und neu gewonnene Erkenntnisse&lt;br&gt; Vorstellung von interessanten Veröffentlichungen&lt;br&gt; Tools die man kennen und lieben sollte&lt;br&gt;</subtitle><entry><title type="html">Don’t look up!</title><link href="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html" rel="alternate" type="text/html" title="Don’t look up!" /><published>2022-09-29T17:31:00+02:00</published><updated>2022-09-29T17:31:00+02:00</updated><id>https://mensa-talk.github.io/2022/09/29/don-t-look-up</id><content type="html" xml:base="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html"><![CDATA[<h2 id="vorbemerkung">Vorbemerkung</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://mensa-talk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mensa-talk.github.io/" rel="alternate" type="text/html" /><updated>2022-10-23T19:56:13+02:00</updated><id>https://mensa-talk.github.io/feed.xml</id><title type="html">Mensa Talk</title><subtitle>Blog und Podcast&lt;br&gt; Neuigkeiten und Wissenwertes aus meinem Uni Alltag&lt;br&gt; Fun Facts und neu gewonnene Erkenntnisse&lt;br&gt; Vorstellung von interessanten Veröffentlichungen&lt;br&gt; Tools die man kennen und lieben sollte&lt;br&gt;</subtitle><entry><title type="html">What shall we do with a drunken sailor?</title><link href="https://mensa-talk.github.io/2022/10/23/what-shall-we-do-with-a-drunken-sailor.html" rel="alternate" type="text/html" title="What shall we do with a drunken sailor?" /><published>2022-10-23T19:56:00+02:00</published><updated>2022-10-23T19:56:00+02:00</updated><id>https://mensa-talk.github.io/2022/10/23/what-shall-we-do-with-a-drunken-sailor</id><content type="html" xml:base="https://mensa-talk.github.io/2022/10/23/what-shall-we-do-with-a-drunken-sailor.html"><![CDATA[<h2 id="a-parametric-study-of-the-mooring-system-design--parameters-to-reduce-wake-losses-in-floating-wind--farm---torque-paper-2022-von-youssef-mahfouz">A parametric study of the mooring system design  parameters to reduce wake losses in floating wind  farm - Torque Paper 2022 von Youssef Mahfouz</h2>
+<p><br />
+Das Paper  <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2265/4/042004">A parametric study of the mooring system design  parameters to reduce wake losses in floating wind  farm</a> ist am 02. Juni 2022 im <a href="https://iopscience.iop.org/journal/1742-6596">Journal of Physics: Conference Series </a> erschienen.</p>
+
+<h3 id="worum-geht-es">Worum geht es?</h3>
+
+<p>In einem Windpark kommt es je nach Windrichtung dazu das Anlagen im Nachlauf von vorstehenden Anlagen betrieben werden.</p>
+<ul>
+  <li>Geringere Windgeschwindigkeit und höhere Turbulenz</li>
+  <li>weniger Energieertrag, höherer Verschleiß besonders bei “Partial-Wake”, d.h. ein Teil des Rotors befindet sich im Nachlauf und der Rest in der freien Anströmung   <img src="/assets/img/post/DrunkenSailor/Partial-and-multiple-wake-effects-a-Overlap-area-between-the-wake-and-rotor-areas-b.png" alt="Abbildung der Partial Wake Operation" />
+<em>Aus: Yang, &amp; Cho,. (2019). Simulated Annealing Algorithm for Wind Farm Layout Optimization: A Benchmark Study. Energies. 12. 4403. 10.3390/en12234403. CC-BY</em></li>
+  <li>Was kann man (bisher) dagegen tun?
+    <ul>
+      <li>Cleveres Windparklayout, Turbinen nicht in Hauptwindrichtung (Hauptertragsrichtung?)  aufreihen bzw. einen möglich großen Abstand einräumen. Klassisches Vorgehen, hierfür gibt es Optimierungsprogramme wie z.B. <a href="https://www.emd-international.com/windpro/">WindPro</a> oder <a href="https://www.dnv.com/services/wind-resource-assessment-software-windfarmer-analyst-3766">WindFarmer</a></li>
+      <li>Nebenbedingungen (hauptsächlich Onshore): Kabellängen, Schattenwurf,  Lärm, Straßen für die Errichtung und Wartung</li>
+      <li><a href="https://www.deutschlandfunk.de/windkraft-stroemungstechnische-optimierung-von-windparks-100.html">Strömungstechnische Optimierung von Windparks</a>
+        <ul>
+          <li><a href="https://www.nrel.gov/docs/fy17osti/66734.pdf">“Wake Steering”</a>
+            <ul>
+              <li>Wird der Rotor im Bezug zur Anströmung schräg gestellt so wirkt eine Komponente des Rotorschubes quer zur Anströmungsrichtung. Diese bewirkt dann eine Ablenkung des Nachlaufes</li>
+              <li>
+                <p>Durch die Schräge Stellung der ersten Anlage wird weniger Energie erzeugt und es entstehen höhere Belastungen. =&gt; Finden eines Kompromisses, die nachfolgenden  Anlagen werden potentiell weniger belastet und haben einen größeren Energieertrag <img src="/assets/img/post/DrunkenSailor/Wake_defelection_Qian,_G.-W.;_Ishihara,_T._A_New_Analytical_Wake_Model_for_Yawed_Wind_Turbines._Energies_2018,_11,_665._https___doi.org_10.3390_en11030665.png" alt="Abbildung: Ablenkung des Nachlaufes durch Schrägstellen des Rotors" />
+<em>Aus: Qian, G.-W.; Ishihara, T. A New Analytical Wake Model for Yawed Wind Turbines. Energies 2018, 11, 665. https://doi.org/10.3390/en11030665 CC-BY 3.0</em></p>
+              </li>
+              <li>Probleme:
+                <ul>
+                  <li>Richtung der An- und Abströmung sind bei klassischen Anlagen nicht bzw. nur näherungsweise bekannt. (<a href="https://de.wikipedia.org/wiki/Lidar">LIDAR</a>Messung oder ähnliches nötig)</li>
+                  <li>Wake Meandering: der Pfad des Nachlaufes ist nicht konstant.</li>
+                  <li>Die Gondelverstellung ist langsam</li>
+                  <li>Man möchte so wenig wie möglich ablenken aber zu wenig führt zu höheren Belastungen an der nachfolgenden Turbinen (partial wake)</li>
+                  <li>Schräge Anströmung an der ablenkenden Turbine führt zu höheren Belastungen der ablenkenden Anlage!</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Neue Idee (im Rahmen des <a href="https://corewind.eu/">Corewind Projektes</a>):
+            <ul>
+              <li>Schwimmende Windturbinen werden mit mehreren Ankerleinen bzw. Ankerketten auf position gehalten.</li>
+              <li>Die Leinen ermöglichen eine gewisse Bewegung, da sie normalerweise nicht straff gespannt sind sondern mit einem gewissen Durchhang (wie ein schlaffes Seil) installiert werden. Sie könnten auch schon alleine aufgrund der Tide nicht straff gespannt sein. Die Position wird mehr oder weniger durch das Gewicht der Ankerketten gehalten.</li>
+              <li>Wenn jetzt eine Kraft wirkt kann die Windturbine ausgelenkt werden. Ein Teil der Ankerketten wird etwas gestrafft. Der andere Teil hängt weiter durch.</li>
+              <li>Diese Bewegung ist auch von ankernden Schiffen bekannt  und wird dann <a href="https://de.wikipedia.org/wiki/Schwojen">Schwojen</a> genannt (Aus dem niederländischen zwaaien =&gt; Schwingen)</li>
+              <li>Ankersystem mit homogener Steifigkeit führt zu einem kreisförmigen Schwojkreis (Schiff mit nur einem Anker, daher vielleicht engl. watch circle)</li>
+              <li>Auslegung bei schwimmenden WT?
+                <ul>
+                  <li>Auslegung in Anlehnung an die ÖL und Gas Industrie</li>
+                  <li>möglichst wenig Bewegung =&gt; mehrere Ankerketten (ein ähnliches Manöver ist das <a href="https://de.wikipedia.org/wiki/Vermuren">Vermuren</a> mit zwei Ankern bei Schiffen um das Schwojen zu reduzieren, daher der Begriff Mooring Lines im Englischen)</li>
+                  <li>Möglichst homogene Steifigkeit =&gt; bei gleicher Windrichtung und Windgeschwindigkeit =&gt; gleiche relative Position</li>
+                </ul>
+              </li>
+              <li>Adaptives Windparklayout:
+                <ul>
+                  <li>Ankerwinden: Zusätzlicher technischer Aufwand, Regelung?</li>
+                  <li>Schrägstellen des Rotors</li>
+                  <li>Belastung der Verankerung</li>
+                  <li>ähnliche Probleme wie beim Wake Steering</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="fragestellung">Fragestellung:</h2>
+<ol>
+  <li>Kann eine geeignet gewählte Verankerung eine schwimmende WEA quer zum Wind bewegen?</li>
+  <li>Wie wird die Bewegung durch unterschiedliche Auslegungen des Verankerungssystems beeinflusst?</li>
+</ol>
+
+<h3 id="was-wurde-gemacht">Was wurde gemacht?</h3>
+
+<h4 id="referenzmodel">Referenzmodel:</h4>
+<ul>
+  <li><a href="https://www.nrel.gov/docs/fy20osti/75698.pdf">IEA 15 MW reference wind turbine</a>
+    <ul>
+      <li>generisches Modell einer 15MW offshore Windturbine eigentlich für Monopiles</li>
+      <li>ähnliche Modelle gibt es für 1.5MW, 2.5MW, 5MW von <a href="https://www.nrel.gov/">NREL</a></li>
+    </ul>
+  </li>
+  <li><a href="https://wes.copernicus.org/preprints/wes-2021-11/wes-2021-11.pdf">Activefloat platform</a>
+      - Eines von zwei schwimmenden Gründungen aus dem EU Projekt COREWIND
+      - “schwimmender Tripod” <img src="/assets/img/post/DrunkenSailor/Schematic-diagram-of-the-IEA-15-MW-wind-turbine-on-the-ActiveFloat-platform.jpg" alt="Abbildung der Active Float Platform" /><em>Aus: Mei, Xuan &amp; Xiong, Min. (2021). Effects of Second-Order Hydrodynamics on the Dynamic Responses and Fatigue Damage of a 15 MW Floating Offshore Wind Turbine. Journal of Marine Science and Engineering. 9. 1232. 10.3390/jmse9111232. CC-BY 4.0</em></li>
+</ul>
+
+<h4 id="analyse-des-referenzmodells">Analyse des Referenzmodells:</h4>
+<ul>
+  <li>schwimmende WT mit drei gleichen Ankerketten die jeweils 120° versetzt sind</li>
+  <li>Statische Simulation mit <a href="https://www.osti.gov/doecode/biblio/61138">MoorPy</a>
+    <ul>
+      <li><a href="https://de.wikipedia.org/wiki/Python_(Programmiersprache)">Python</a> Bibliothek von NREL für die Analyse von Ankersystemen</li>
+      <li>Gründung wird abgebildet als Festkörper mit 6 Freiheitsgraden (3 Translationen + 3 Rotation?)</li>
+      <li>aerodynamischen Kräfte als konstante Last</li>
+      <li>Kräfte wurden direkt auf dem Float übertragen, der Turm steif und ohne Windwiderstand</li>
+      <li>Wellen- und Strömungskräfte wurden nicht berücksichtigt</li>
+      <li>Windgeschwindigkeit von 8 m/s da dort größter Energieertrag  (Nennwindgeschwindigkeit 11m/s)</li>
+      <li>Windrichtung in 5° Schritten, 0°-360°</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="ergebnis">Ergebnis:</h4>
+<ul>
+  <li>an einem dreiblättrigen Kleeblatt (oder eine leicht eingedellter Kreis) erinnernden  Schwojbereich.</li>
+  <li>Auslenkungen im Bereich 12m-15m</li>
+  <li>auch Auslenkungen quer zum Wind! (Allerdings nur max 2m) <img src="/assets/img/post/DrunkenSailor/ReferenceModelResult.jpg" alt="Diagramme mit Ergebnissen aus dem Referenzmodel" /><em>Aus: A parametric study of the mooring system design parameters to reduce wake losses in a floating wind farm, Mohammad Youssef Mahfouz et al 2022 J. Phys.: Conf. Ser. 2265 042004, CC-BY 3.0</em></li>
+</ul>
+
+<h4 id="parametervariation">Parametervariation:</h4>
+<ul>
+  <li>Nomineller Kettendurchmesser
+    <ul>
+      <li>6cm, 12cm (Üblicher Kettendurchmesser 2,5cm - 18cm)
+  =&gt; für jede der drei Ankerketten (ins. 8 Simulationen)</li>
+    </ul>
+  </li>
+  <li>Die Ausrichtung der Ankerketten
+    <ul>
+      <li>in 10° Schritten</li>
+      <li>mindestens ein Winkel 10° zwischen den Ketten 
+  =&gt; 72 möglich Kombinationen</li>
+    </ul>
+  </li>
+  <li>Der Anker Radius und die Länge der Ketten
+    <ul>
+      <li>Radius 3D, 4D und 5D</li>
+      <li>Für die Länge:
+        <ul>
+          <li>Minimal mögliche Länge: grade Verbindung zwischen Turbine und Ankerpunkt, die Kette hängt nicht durch</li>
+          <li>Maximal mögliche Länge: die Kette hängt maximal durch, senkrecht nach und dann auf dem Meeresboden zum Ankerpunkt</li>
+          <li>Differenz zwischen min und max ist dann die mögliche Variation</li>
+          <li>es wurde 0.5, 0.7 und 0.9 für die Variation gewählt</li>
+          <li>Insgesamt gibt es 9³= 729 möglich Kombinationen</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>Alle Variationen zusammen ergeben 419904 mögliche Designs.
+Diese wurden unter den selben Bedingungen wie die Referenz Simuliert und ungeeignete aussortiert:</p>
+<ul>
+  <li>keine vertikalen Kräfte am Anker</li>
+  <li>nicht mehr als 10° Gieren der Anlage (Rotation um die Turmachse)</li>
+  <li>nicht mehr als 2° Rollen (Rotation um die Achse die in den Wind Zeigt, also seitliche Rotation)
+28205 Designs erfüllten die Bedingung</li>
+</ul>
+
+<h3 id="was-ist-das-ergebnis">Was ist das Ergebnis?</h3>
+<ul>
+  <li>Beispielhafte Darstellung, aber alle Fälle ausgewertet.</li>
+  <li>Vergleich von Ergebnissen um die jeweiligen Auswirkungen der Parameter zu Untersuchen:
+    <ul>
+      <li>Ausrichtung der Ankerketten:
+        <ul>
+          <li>Betrachtung des Schwojkreis (Watch circle), Auslenkung in Windrichtung (bei 8 m/s Wind), Auslenkung Quer zum Wind</li>
+          <li>Es wurden die Fälle betrachtet bei denen die Ausrichtung der Ankerketten gleich waren, alle anderen Parameter variierten.</li>
+          <li>Die Richtung der Auslenkung wird durch die Auslenkung der Ankerketten bestimmt. Der Betrag der Auslenkung durch die anderen Parameter.</li>
+          <li>Es gibt Windrichtungen in denen es keine Querverschiebung gibt! (Unerwünscht) <img src="/assets/img/post/DrunkenSailor/ErgebnisseDerParametervariation.jpg" alt="Diagram mit Ergebnissen aus der Parametervariation, gleiche Ankerrichtungen, Variation aller anderen Parameter" /><em>Aus: A parametric study of the mooring system design parameters to reduce wake losses in a floating wind farm, Mohammad Youssef Mahfouz et al 2022 J. Phys.: Conf. Ser. 2265 042004, CC-BY 3.0</em></li>
+          <li>Weitere Analyse:
+            <ul>
+              <li>Solange mindestens zwei Ankerketten durch den Rotorschub auf Zug belastet werden (also weiter gestrafft werden) kann es keine Bewegung in Querrichtung geben</li>
+              <li>Damit es überhaupt eine Bewegung in Querrichtung geben kann müssen irgendwo zwei benachbarte Ankerketten einen eingeschlossenen Winkel von mehr als 90° haben.</li>
+              <li>Eine Bewegung in Querrichtung entsteht wenn einer der beidem vom Rotorschub eingeschlossenen und Ankerketten eingeschlossenen  Winkel größer als 90° ist</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Kettendurchmesser:
+        <ul>
+          <li>Der Durchmesser einer Kette (Kette 1) wurde von 6cm auf 12 cm erhöht. Alles andere bleibt gleich</li>
+          <li>Die unbelastet Ruhelage ist in Richtung Ankerpunkt der schwereren Kette Verschoben. (nicht relevant für Windparks)</li>
+          <li>Immer wenn der Schub zwischen der schweren einer beliebigen anderen Kette angreift dann wird die Auslenkung reduziert (sowohl in Windrichtung als auch quer) Also zwischen 1-2 und 1-3. Bei einer Kraft zwischen den beiden übrigen ändert sich die Verschiebung nicht.</li>
+          <li>Untersuchung der Steifigkeit:
+            <ul>
+              <li>Die Ketten hängen durch.</li>
+              <li>Je straffe eine Kette gespannt ist, also je weniger sie durchhängen desto steifer wirkt die Kette.</li>
+              <li>Eine kleinere Kette ist leichter. Sie wird bei kleineren Kräften bereits deutlicher gestrafft.</li>
+              <li>Achtung! Die Steifigkeit der Kette hat nur indirekt etwas mit der Auslenkung der Windturbine zu tun. Die “Ankerwirkung” erfolgt Hauptsächlich durch das Gewicht der Kette.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Kettenlänge:
+        <ul>
+          <li>Ähnliche Untersuchung. Die Kettenlänge einer Kette wird variiert.</li>
+          <li>Ist eine Kette länger so wird die Turbine im unbelasteten Zustand in Richtung der kürzeren Ketten gezogen.</li>
+          <li>Durch den größeren Durchhang der Kette kann es immer dann, wenn die Belastung zwischen dieser und einer weiteren Kette angreift zu größeren Verschiebungen kommen. (Beispiel Kette 1 länger, Es kommt zu dem Effekt zwischen 1-2 und 1-3)</li>
+          <li>Greift die Kraft zwischen den beiden kürzeren Ketten an, so ändert sich die Versschiebung nicht.</li>
+          <li>Steifigkeit wird nur sehr leicht verändert. Längere Ankerleinen haben tendenzielle eine geringere Steifigkeit <img src="/assets/img/post/DrunkenSailor/ErgebnisseDerParametervariationKettenlängen.jpg" alt="Diagram mit Ergebnissen der Parametervariation, unterschiedliche Ankerkettenlängen" /><em>Aus: A parametric study of the mooring system design parameters to reduce wake losses in a floating wind farm, Mohammad Youssef Mahfouz et al 2022 J. Phys.: Conf. Ser. 2265 042004, CC-BY 3.0</em></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="zusammenfassungfazit">Zusammenfassung/Fazit</h3>
+<ul>
+  <li>Passive Bewegungen bis zu 1.2D möglich</li>
+  <li>Ausrichtung der Ankerketten bestimmt die Richtung der maximalen Auslenkung die übrigen Parameter die stärke der Auslenkung</li>
+  <li>Ankerketten sollten einen Winkel von mehr als 90° zueinander einnehmen damit eine Bewegung quer zum Wind möglich ist.</li>
+  <li>Die Steifigkeit der Ankerketten ist nicht direkt mit der maximalen Verschiebung der Windturbine verbunden. Da die Ankerwirkung zusätzlich bzw.  hauptsächlich vom Gewicht der Ketten abhängig ist und die Ketten nicht straff gespannt sind. Das war auch eine getroffene Vorrausetzung.</li>
+  <li>Einfluss auf des Floater designs und der Wassertiefe wurde nicht untersucht</li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Manche Windparkplaner sagen, dass die einfachste Möglichkeit den Wirkungsgrad eines Windparks zu erhöhen darin besteht die zweite Reihe der Windturbinen los zu werden. Wir schauen uns an, was damit gemeint ist, warum diese Windparkverluste auftreten und was man dagegen tun kann. Neben klassischen Ideen werden wir uns hauptsächlich mit einer Idee beschäftigen die mein Kollege Youssef Mahfouz in seinem Torque Paper 2022 beschreibt. Wir gehen offshore und (zumindest ich) lerne eine Menge neuer Wörter.]]></summary></entry><entry><title type="html">Don’t look up!</title><link href="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html" rel="alternate" type="text/html" title="Don’t look up!" /><published>2022-09-29T17:31:00+02:00</published><updated>2022-09-29T17:31:00+02:00</updated><id>https://mensa-talk.github.io/2022/09/29/don-t-look-up</id><content type="html" xml:base="https://mensa-talk.github.io/2022/09/29/don-t-look-up.html"><![CDATA[<h2 id="vorbemerkung">Vorbemerkung</h2>
 <ul>
   <li><a href="https://mensa-talk.github.io">Ausführliche Shownotes</a></li>
   <li>Alle Informationen zur Übung lassen sich auch auf der Seite der <a href="https://cneos.jpl.nasa.gov/pd/cs/pdc21/"> Planetary Defense Conference Exercise - 2021</a> finden.</li>
