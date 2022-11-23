@@ -1,4 +1,227 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://mensa-talk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mensa-talk.github.io/" rel="alternate" type="text/html" /><updated>2022-11-10T09:16:09+01:00</updated><id>https://mensa-talk.github.io/feed.xml</id><title type="html">Mensa Talk</title><subtitle>Blog und Podcast&lt;br&gt; Neuigkeiten und Wissenwertes aus meinem Uni Alltag&lt;br&gt; Fun Facts und neu gewonnene Erkenntnisse&lt;br&gt; Vorstellung von interessanten Veröffentlichungen&lt;br&gt; Tools die man kennen und lieben sollte&lt;br&gt;</subtitle><entry><title type="html">What shall we do with a drunken sailor?</title><link href="https://mensa-talk.github.io/2022/10/23/what-shall-we-do-with-a-drunken-sailor.html" rel="alternate" type="text/html" title="What shall we do with a drunken sailor?" /><published>2022-10-23T19:56:00+02:00</published><updated>2022-10-23T19:56:00+02:00</updated><id>https://mensa-talk.github.io/2022/10/23/what-shall-we-do-with-a-drunken-sailor</id><content type="html" xml:base="https://mensa-talk.github.io/2022/10/23/what-shall-we-do-with-a-drunken-sailor.html"><![CDATA[<h2 id="a-parametric-study-of-the-mooring-system-design--parameters-to-reduce-wake-losses-in-floating-wind--farm---torque-paper-2022-von-youssef-mahfouz">A parametric study of the mooring system design  parameters to reduce wake losses in floating wind  farm - Torque Paper 2022 von Youssef Mahfouz</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://mensa-talk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mensa-talk.github.io/" rel="alternate" type="text/html" /><updated>2022-11-23T16:57:54+01:00</updated><id>https://mensa-talk.github.io/feed.xml</id><title type="html">Mensa Talk</title><subtitle>Blog und Podcast&lt;br&gt; Neuigkeiten und Wissenwertes aus meinem Uni Alltag&lt;br&gt; Fun Facts und neu gewonnene Erkenntnisse&lt;br&gt; Vorstellung von interessanten Veröffentlichungen&lt;br&gt; Tools die man kennen und lieben sollte&lt;br&gt;</subtitle><entry><title type="html">Lass uns eine Runde DART spielen</title><link href="https://mensa-talk.github.io/2022/11/23/lass-uns-eine-runde-dart-spielen.html" rel="alternate" type="text/html" title="Lass uns eine Runde DART spielen" /><published>2022-11-23T16:54:00+01:00</published><updated>2022-11-23T16:54:00+01:00</updated><id>https://mensa-talk.github.io/2022/11/23/lass-uns-eine-runde-dart-spielen</id><content type="html" xml:base="https://mensa-talk.github.io/2022/11/23/lass-uns-eine-runde-dart-spielen.html"><![CDATA[<h2 id="intro">Intro</h2>
+<ul>
+  <li>Dr. Ralph Semmel - Direktor John Hopkins <strong>A</strong>plied  <strong>P</strong>hysiks <strong>L</strong>aboratories (APL)</li>
+  <li>Josh Handal - Office of Communications NASA</li>
+</ul>
+
+<h2 id="einleitung">Einleitung</h2>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=vfvo-Ujb_qk&amp;t=5s">25000 Asteroiden mit ca. 150m Durchmesser in der nähe der Erde</a></li>
+  <li>1x alle 20000 Jahre ein Treffer mit einem Asteroiden dieser Größe</li>
+  <li><a href="https://www.zdf.de/wissen/leschs-kosmos/asteroiden-108.html">Auslöschung der Dinosaurier durch einen Meteoriten</a></li>
+  <li><a href="https://de.wikipedia.org/wiki/Meteor_von_Tscheljabinsk">Meteor von Tscheljabinsk</a>
+    <ul>
+      <li>Anflug aus Richtung Sonne am 15.02.2013</li>
+      <li>größter Meteor seit 100 Jahre, geschätzt 19m Durchmesser</li>
+      <li>durch das zerbrechen beim Eintritt wurde eine <a href="https://de.wikipedia.org/wiki/Airburst">Airburst</a> erzeugt</li>
+      <li>Lichtblitz 30 fach heller als die Sonne</li>
+      <li>Infraschall Messstellen zur Überwachung des Kernwaffenteststopvertrages detektierten das bis dahin stärkste Ereignis seit Beginn der Messung</li>
+      <li>500kt TNT Äquivalent</li>
+      <li>etwa 1500 verletzte Personen, meist durch Glassplitter</li>
+      <li>3700 beschädigte Gebäude
+<img src="/assets/img/post/DART/2013_Chelyabinsk_meteor_trace.jpg" alt="Rauchspur des Meteors von Jekaterinburg  etwa 200 km von Tscheljabinsk entfernt" />
+*Rauchspur des Meteors von Jekaterinburg  etwa 200 km von Tscheljabinsk entfernt,  *</li>
+    </ul>
+  </li>
+  <li>Ab 50m Durchmesser muss bei einem Impakt im bewohnten Gebiet mit erheblichen Schäden gerechnet werden.</li>
+  <li>Größenordnung 50m-150m besonders relevant, da größere Asteroiden leichter zu Entdecken und daher bekannt und kleinere Asteroiden weniger Schaden verursachen</li>
+  <li>Es gibt eine <a href="https://neo.ssa.esa.int/risk-list">ESA Risk List</a></li>
+  <li>zur Beurteilung der Gefahr wird die <a href="https://de.wikipedia.org/wiki/Palermo-Skala">Palermoskala</a> verwendet:
+    <ul>
+      <li>Kombination aus:
+        <ul>
+          <li>Wahrscheinlichkeit</li>
+          <li>kinetischer Energie</li>
+          <li>verbleibender Zeit</li>
+        </ul>
+      </li>
+      <li>
+        <p>Ein Zahlenwert von 0 bedeutet die Gefahr ist genau so groß wie das Hintergrundrisiko. Eine größere Zahl bedeutet ein größeres Risiko. Dabei wird eine Exponentielle Skala verwendet, d.h. bei einer Palermozahl von 1 ist die Gefahr 10x, bei einer Palermozahl von 2 100x größer als das “Hintergrundrisiko”. Die Palermozahl kann auch kleiner als 0 sein (derzeit ist kein Asteroid bekannt der eine positive Palermozahl hat)</p>
+      </li>
+      <li>Die Palermozahl ist nicht konstant. Sie ändert sich sowohl mit neuen Erkenntnissen als auch  Zeitlich.</li>
+    </ul>
+  </li>
+  <li>Derzeit (17.11.22) <a href="https://neo.ssa.esa.int/search-for-asteroids?sum=1&amp;des=2022UE28">Nummer 1 auf der Risklist: 2022UE28</a> (geschätzter Durchmesser 180m) mit einer Palermozahl von -3.04 (zwischenzeitlich -1.74)
+    <ul>
+      <li>Impact am 02.04.2062 12:40 UTC mit einer Wahrscheinlichkeit von 1:62111 
+(Lotto 6 aus 49 Jackpot 1:140Mio, 6 Richtige 1:15.5Mio, 5 Richtige 1:60.000, 4 Richtige + Superzahl 1:10000)</li>
+      <li>Neue Beobachtung (6 Tage)</li>
+      <li>Hintergrund ist 1000mal gefährlicher</li>
+    </ul>
+  </li>
+  <li>Derzeit <a href="https://neo.ssa.esa.int/search-for-asteroids?sum=1&amp;des=101955%20Bennu">Nummer 1 auf der Spezial Risk List: Bennu</a> (484m) mit einer Palermozahl von -1.59
+    <ul>
+      <li>Impact am 24.09.2182 mit einer Wahrscheinlichkeit von 1:2702</li>
+      <li>seit mehr als 13 Jahren in der Liste</li>
+      <li>Einschlag wird erst 2182 wahrscheinlich</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Man muss sich keine Sorgen machen allerdings sind die Szenarien realistisch genug damit man sich damit beschäftigen sollte.</p>
+
+<h2 id="abwehrmaßnahmen">Abwehrmaßnahmen</h2>
+<ul>
+  <li>Zertrümmern
+    <ul>
+      <li>mit Impaktoren:
+Nicht für große Objekte geeignet. Man bräuchte entweder sehr Energiereiche und/oder sehr viele Impaktoren</li>
+      <li>mit (Atom)-Bomben :
+ sehr risikoreich, Atombomben im Weltraum zu Testzwecken zu zünden ist verboten</li>
+      <li>mit Laserstrahlen: derzeit sind die Laser nicht stark genug, die Idee stammt aus SDI Zeiten dort sollten atomare Interkontinentalraketen mit Satteliten-Laser abgefangen werden.</li>
+      <li>Gefahr der Bruchstücke ist nicht vorhersehbar.</li>
+    </ul>
+  </li>
+  <li>Ablenken
+    <ul>
+      <li>(Atom-)Bomben (zu gefährlich?)</li>
+      <li>Installierten Triebwerken (unrealistisch Aufwendig?)</li>
+      <li><a href="https://de.wikipedia.org/wiki/Gravitationstraktor">Gravitationstraktor</a></li>
+      <li>Impaktoren (derzeit als realistisches Szenario angenommen)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="nasa-dart-mission">NASA DART Mission</h2>
+<p><a href="https://dart.jhuapl.edu/News-and-Resources/files/Fact-Sheet-DART.pdf">DART = <strong>D</strong>ouble <strong>A</strong>steroid <strong>R</strong>edirection <strong>T</strong>est</a> <br />
+Eigentlich geleitet von dem Applied Physics Laboratory der John Hopkins Universität.</p>
+<ul>
+  <li>Start am 24.11.2021 mit einer Falcon 9 von SpaceX</li>
+  <li>Kosten des Starts und der Startvorbereitungen 69mio$</li>
+  <li>Einschlag am 26.09.2022</li>
+  <li>Wahrscheinlichkeit dass der Asteroid verfehlt wird wurde auf 10% geschätzt</li>
+  <li><a href="https://www.google.com/search?q=nasa+dart">Google Doodle</a></li>
+</ul>
+
+<h2 id="auswahl-des-ziels">Auswahl des Ziels</h2>
+<ul>
+  <li>Hauptasteroid  Didymos (⌀ 800m) (griechisch “Zwilling”), Mond Dimorphos (⌀ 170m) (griechisch “zweigestaltet”)</li>
+  <li>Umlaufzeit 11h 55min</li>
+  <li>Erdbahn wird nicht gekreuzt, keine Gefahr</li>
+  <li>Asteroiden System
+    <ul>
+      <li>um einen deutlicheren Effekt zu erziehen</li>
+      <li>der “Hauptasteroid” hat nur eine relative geringe Gravitationseinfluss</li>
+      <li>der zusätzliche Impuls bewirkt dadurch eine große Änderung</li>
+      <li>Bindungen am Hauptasteroid hat einen zusätzlichen Sicherheitseffekt, da nur der Umlauf geändert wird und nicht die Bahn des Gesamtsystems</li>
+      <li>Einschlagrichtung wurde so gewählt, dass eine Verkürzung der Umlauf bewirkt wird
+ <img src="/assets/img/post/DART/Didymos-Dimorphos.png" alt="Dimorphos und Didymos (im Hintergrund, oben rechts), aufgenommen von DART" />
+ <em>Dimorphos und Didymos (im Hintergrund, oben rechts), aufgenommen von  DART, NASA/Johns Hopkins APL</em></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="dart-impaktor">DART Impaktor</h2>
+<ul>
+  <li>Gewicht bei Aufschlag etwa 570kg, Geschwindigkeit 6.1km/s (Hamburg -&gt; München in ca. 90s)</li>
+  <li>3 Tonnen TNT Äquivalent</li>
+  <li><a href="https://de.wikipedia.org/wiki/Datei:Behind_the_Scenes_Inspecting_DART%27s_Roll_Out_Solar_Array_ROSA_Technology.webm">Roll Out Solar Arrays -ROSA</a>
+    <ul>
+      <li>Aufgerollte flexible Solar Panele</li>
+      <li>Zweiter Einsatz im Weltraum, erster als Experiment auf der ISS im Juni 2017</li>
+      <li>Normalerweise sind die Panele gefaltet</li>
+      <li>Dadurch größere Solarfläche möglich</li>
+    </ul>
+  </li>
+  <li><a href="https://dart.jhuapl.edu/Mission/Impactor-Spacecraft.php#subsec_four">Transformational Solar Array</a>
+    <ul>
+      <li>rinnenförmige Spiegel die als Konzentratoren dienen</li>
+      <li>hocheffiziente Solarmodule</li>
+      <li>dreifache Energieausbeute gegenüber normaler Konfigurationen</li>
+      <li>Gesamtleistung Leistung 3.5kW</li>
+    </ul>
+  </li>
+  <li><a href="https://www1.grc.nasa.gov/space/sep/gridded-ion-thrusters-next-c/">Next-C Ionentriebwerk</a>
+    <ul>
+      <li>6.9 kW Leistungsaufnahmen 236mN Schub, (gewichts-)spezifischer Impuls von 4190 Sekunden</li>
+      <li>etwa der 10 fache spezifische Impuls einer Ariane 5 Oberstufe</li>
+      <li>zusätzliches Thermisch Triebwerk mit Hydrazin</li>
+      <li>50kg Hydrazin und 60kg Xenon (Edelgas)</li>
+    </ul>
+  </li>
+  <li>DRACO-Kamera
+    <ul>
+      <li>Einzige Nutzlast</li>
+      <li>Teleskop mit Kamera 📸</li>
+      <li>Blickwinkel von 0.29° (Vollmond von der Erde mit dem Auge 0,5°)</li>
+    </ul>
+  </li>
+  <li><a href="https://dart.jhuapl.edu/Mission/Impactor-Spacecraft.php#subsec_six">Radial Line Slot Array</a>
+    <ul>
+      <li>spiralförmig angeordnete Schlitzantenne</li>
+      <li>Schlitzantennen werden im Flugzeugbau z.B. für das Wetterradar verwendet</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="lucia-cube-schwestersatellit"><a href="https://en.wikipedia.org/wiki/LICIACube">LUCIA Cube</a> “Schwestersatellit”</h2>
+<ul>
+  <li>erster rein italienischer Satellit im “tiefen” Weltraum</li>
+  <li>“Huckepack” in einer Kassette/Schublade am DART Impaktor</li>
+  <li>viel kleiner, 14kg bei Abflug</li>
+  <li>soll den Aufschlag beobachten und Bilder des Asteroiden machen</li>
+  <li>zwei Kameras LEIA und LUKE  <i class="fa-solid fa-jedi"></i>
+    <ul>
+      <li>LEIA: Spiegeltele, Bildwinkel 2.06°, 2048x2048 pixel, beste Auflösung 1.38m/pixel, monochrom</li>
+      <li>LUKE: “Weitwinkel” Farbkamera, 5° Bildwinkel, (würde etwa einer 400mm Brennweite an Kleinbild entsprechen)
+<img src="/assets/img/post/DART/liciacube_luke_größte_annäherung.png" alt="Der ASI-Satellit LICIACube nahm dieses Bild kurz vor seiner größten Annäherung an den Asteroiden Dimorphos auf, nachdem die DART-Mission (Double Asteroid Redirect Test) am 26. September 2022 zielgerichtet auf den Asteroiden aufgeschlagen war. Didymos, Dimorphos und die Wolke, die nach dem DART-Einschlag von Dimorphos ausgeht, sind deutlich zu erkennen." />	
+ <em>Der ASI-Satellit LICIACube nahm dieses Bild kurz vor seiner größten Annäherung an den Asteroiden Dimorphos auf, nachdem die DART-Mission (Double Asteroid Redirect Test) am 26. September 2022 zielgerichtet auf den Asteroiden aufgeschlagen war. Didymos, Dimorphos und die Wolke, die nach dem DART-Einschlag von Dimorphos ausgeht, sind deutlich zu erkennen. ASI/NASA</em>
+        <h2 id="vorläufiges-ergebnis-der-dart-mission-"><a href="https://www.nasa.gov/press-release/nasa-confirms-dart-mission-impact-changed-asteroid-s-motion-in-space">Vorläufiges Ergebnis der DART Mission </a></h2>
+        <p>Geplant war eine Veränderung der Umlaufzeit um etwa 10min zu erreichen. Ein Erfolg wäre jedoch auch schon Änderung von 73s.</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>Aus der <a href="https://www.nasa.gov/planetarydefense/videos">Pressekonferenz direkt nach dem Einschlag</a>:</p>
+<ul>
+  <li>Mission verlief vorbildlich</li>
+  <li>Die Solarpanele funktionierten wie erwartet</li>
+  <li>Der elektrische Antrieb wurde nur für zwei Stunden verwendet
+    <ul>
+      <li>Anstatt der erwarteten Stromspitzen von 25A gab es bis zu 100A Stromspitzen</li>
+      <li>Zur Risikominimierung wurde auf das erneute Verwenden des elektrischen Antriebes verzichtet</li>
+      <li>Hätte es keinen Treffer gegeben wäre das Triebwerk für 8 Tage in Betrieb genommen worden. Diese heute eine erneuten Trefferversuch nach zwei Jahren bewirkt.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="weiter-ergebnisse">Weiter Ergebnisse:</h3>
+<ul>
+  <li>Umlauf wurde von 11h 55min um 32min auf 11h 23min gekürzt (Messungenauigkeit von ±2min )</li>
+  <li>die deutlich größere Änderung basiert vermutlich auf dem aufgewirbelten Staub (Ejecta)</li>
+  <li>Messung der Umlauf:
+    <ul>
+      <li>Optische Beobachtung
+        <ul>
+          <li>Auflösung reicht nicht um beide Objekte zu unterscheiden</li>
+          <li>Umlaufzeiten wurden durch Helligkeitsmessung bestimmt</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="/assets/img/post/DART/didymos-lightcurve-demo.gif" alt="Diese Animation zeigt eine stark vergrößerte Ansicht der Umlaufbahn von Dimorphos um Didymos von der Erde aus gesehen, etwa eine Woche nach dem DART-Einschlag. Bei jedem Umlauf durchquert Dimorphos den von Didymos geworfenen Schatten und wirft einen halben Umlauf später kurz einen Schatten auf Didymos." />
+<em>Diese Animation zeigt eine stark vergrößerte Ansicht der Umlaufbahn von Dimorphos um Didymos von der Erde aus gesehen, etwa eine Woche nach dem DART-Einschlag. Bei jedem Umlauf durchquert Dimorphos den von Didymos geworfenen Schatten und wirft einen halben Umlauf später kurz einen Schatten auf Didymos. NASA/APL/UMD</em></p>
+
+<ul>
+  <li>Radar Beobachtung
+    <ul>
+      <li>Funktioniert nur im Nahbereich (hier erfüllt)</li>
+      <li>kann beide Objekte Auflösen</li>
+      <li>“Pixelbrei” für Experten 
+<img src="/assets/img/post/DART/RadarMessungOrbit.jpg" alt="Der grüne Kreis zeigt die Position des Asteroiden Dimorphos, der den größeren Asteroiden Didymos umkreist, der hier als helle Linie in der Mitte der Bilder zu sehen ist. Der blaue Kreis zeigt, wo sich Dimorphos befunden hätte, wenn seine Umlaufbahn nicht durch den gezielten Einschlag der NASA-Mission DART in den kleineren Asteroiden am 26. September 2022 verändert worden wäre. Die Bilder zeigen das binäre Asteroidensystem Didymos und Dimorphos, die von Radareinrichtungen des Goldstone-Planetenradars des Jet Propulsion Laboratory der NASA in Kalifornien und des Green Bank Observatory der National Science Foundation in West Virginia aufgenommen wurden. Links sind die Goldstone-Beobachtungen vom 4. Oktober 2022 zu sehen, rechts die kombinierten Beobachtungen von Goldstone und Green Bank vom 9. Oktober 2022." />
+<em>Der grüne Kreis zeigt die Position des Asteroiden Dimorphos, der den größeren Asteroiden Didymos umkreist, der hier als helle Linie in der Mitte der Bilder zu sehen ist. Der blaue Kreis zeigt, wo sich Dimorphos befunden hätte, wenn seine Umlaufbahn nicht durch den gezielten Einschlag der NASA-Mission DART in den kleineren Asteroiden am 26. September 2022 verändert worden wäre. Die Bilder zeigen das binäre Asteroidensystem Didymos und Dimorphos, die von Radareinrichtungen des Goldstone-Planetenradars des Jet Propulsion Laboratory der NASA in Kalifornien und des Green Bank Observatory der National Science Foundation in West Virginia aufgenommen wurden. Links sind die Goldstone-Beobachtungen vom 4. Oktober 2022 zu sehen, rechts die kombinierten Beobachtungen von Goldstone und Green Bank vom 9. Oktober 2022. NASA/Johns Hopkins APL/JPL/NASA JPL Goldstone Planetary Radar/National Science Foundation’s Green Bank Observatory</em></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="folgemission-hera"><a href="https://de.wikipedia.org/wiki/Hera_(Weltraummission)">Folgemission HERA</a></h2>
+<p><a href="https://www.esa.int/Space_in_Member_States/Austria/Die_Planetenbeschuetzer_Nach_DART_der_NASA_kommt_Hera_der_ESA">Hera ist eine Weltraummission der ESA</a>. Es sollen die Auswirkungen der DART Mission genau vermessen werden. Beide Missionen sollten ursprünglich gleichzeitig stattfinden.
+Hera soll 2024 starten und die Asteroiden 2026 erreichen. 
+Warum die Mission nicht gleichzeitig stattfinden? 
+Vermutlich Budgetmangel.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Alle Welt redet von Artemis 1. Wir nicht. Naja, noch nicht. Wir kümmern uns nochmal um die planetare Abwehr und schauen uns die NASA DART Misssion an. Es gab zwar sehr viele Berichte und spektakuläre Video, aber das ist kein Grund nicht nochmal etwas genauer hinzuschauen. Ist so ein Szenario überhaupt relevant? Was war besonders an dieser Mission? War sie erfolgreich und wenn ja woher wissen wir dass? Wie gehts weiter?]]></summary></entry><entry><title type="html">What shall we do with a drunken sailor?</title><link href="https://mensa-talk.github.io/2022/10/23/what-shall-we-do-with-a-drunken-sailor.html" rel="alternate" type="text/html" title="What shall we do with a drunken sailor?" /><published>2022-10-23T19:56:00+02:00</published><updated>2022-10-23T19:56:00+02:00</updated><id>https://mensa-talk.github.io/2022/10/23/what-shall-we-do-with-a-drunken-sailor</id><content type="html" xml:base="https://mensa-talk.github.io/2022/10/23/what-shall-we-do-with-a-drunken-sailor.html"><![CDATA[<h2 id="a-parametric-study-of-the-mooring-system-design--parameters-to-reduce-wake-losses-in-floating-wind--farm---torque-paper-2022-von-youssef-mahfouz">A parametric study of the mooring system design  parameters to reduce wake losses in floating wind  farm - Torque Paper 2022 von Youssef Mahfouz</h2>
 <p><br />
 Das Paper  <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2265/4/042004">A parametric study of the mooring system design  parameters to reduce wake losses in floating wind  farm</a> ist am 02. Juni 2022 im <a href="https://iopscience.iop.org/journal/1742-6596">Journal of Physics: Conference Series </a> erschienen.</p>
 
